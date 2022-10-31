@@ -8,7 +8,8 @@ rm star_wars/empire/death_star/obi_wan.txt
 mv star_wars/empire/death_star/*.txt star_wars/empire/death_star/millenium_falcon  
 mv star_wars/empire/death_star/millenium_falcon/darth_vader.txt to star_wars/empire/death_star
 # 4. Move the millenium_falcon back into the rebellion directory.
-
+mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
 # 5. darth_vader leaves the death_star to pursue luke_skywalker! Move him from the death_star into the empire directory!
-
+mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
 # 6. Thanks to his practice back home at Beggar’s Canyon, Luke blew up the death_star! Remove it from the galaxy!
+rmdir star_wars/empire/death_star
