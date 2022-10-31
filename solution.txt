@@ -1,0 +1,309 @@
+star_wars git:(master) ✗ history
+    1  pwd
+    2  cd
+    3  cd Downloads
+    4  ls
+    5  cd World
+    6  cd Downloads
+    7  ls
+    8  ls -a
+    9  cd Asia
+   10  ls
+   11  cd australia
+   12  cd Downloads
+   13  ls
+   14  cd World
+   15  ls
+   16  ls -a
+   17  dc africa
+   18  cd africa
+   19  ls
+   20  ls -a
+   21  ..
+   22  cd ..
+   23  ls -a
+   24  cd Australia
+   25  ls -a
+   26  cd ..
+   27  cd Europe
+   28  ls -a
+   29  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   30  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   31  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   32  sudo whoami
+   33  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   34  git --version
+   35  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   36  git --version
+   37  git --version
+   38  mkdir GA-Blog
+   39  mkdir .git/
+   40  cd ..
+   41  ls
+   42  cd davidlee
+   43  ls
+   44  cd ga-blog
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd GA-Blog
+   49  ls
+   50  mkdir .git/
+   51  ls
+   52  ls -a
+   53  $git init
+   54  cd ..
+   55  ls
+   56  cd GA-Blog
+   57  $ git init
+   58  git init
+   59  ls
+   60  ls -a
+   61  $ git status
+   62  cd ..
+   63  ls
+   64  ls -a
+   65  cd GA-Blog
+   66  $ git init
+   67  git init
+   68  pwd
+   69  git status
+   70  git status
+   71  touch post.txt
+   72  git status
+   73  git add post.txt
+   74  git commit -m "created a new post.txt file"
+   75  git log
+   76  git status
+   77  cd ..
+   78  ls
+   79  mkdir git-practice
+   80  cd git-practice
+   81  pwd
+   82  git init
+   83  git status
+   84  ls -a
+   85  git add README.txt
+   86  git status
+   87  git commit - m "..."
+   88  sysctl machdep.cpu.brand_string
+   89  # Checking Your Processor Type in Big Sur
+   90  echo $SHELL
+   91  ```bash\nchsh -s $(which zsh)\n```
+   92  echo $SHELL
+   93  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   94  code .
+   95  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   96  brew help
+   97  brew doctor
+   98  brew update
+   99  brew install git
+  100  git config --global user.name davidhlee94
+  101  git config --global user.name "davidhlee94"
+  102  git config --global user.email "davidhlee94@gmail.com"
+  103  git config --global init.defaultBranch main
+  104  git config --global core.editor "code --wait"
+  105  git config --global pull.rebase false
+  106  git config --global user.name "davidhlee94"
+  107  git config --global init.defaultBranch main
+  108  git config --global core.editor "code --wait"
+  109  git config --global pull.rebase false
+  110  touch ~/.gitignore_global
+  111  ```bash\ngit config --global pull.rebase false\n```
+  112  brew install gh
+  113  gh auth login
+  114  brew install node
+  115  node -v\nnpm -v
+  116  npm i -g nodemon
+  117  tree
+  118  mkdir photos
+  119  cd photos
+  120  touch a.js
+  121  rm a.js
+  122  cd ..
+  123  ls
+  124  notes.txt photos
+  125  mv photos/app.js
+  126  mkdir photos
+  127  touch photos/eric.png photos/troy.png photos/wc-cohort.png
+  128  mkrdir frontend
+  129  mkdir frontend
+  130  touch frontend/app.js frontend/index.html frontend/main.css
+  131  mkdir photos/png
+  132  mkrdir photos/jpg
+  133  mkdir photos/jpg
+  134  mkdir cohort.jpg
+  135  touch photos/cohort.jpg
+  136  mv photos/*.jpg jpg
+  137  mv photos/*.jpg /jpg
+  138  mv photos/*.jpg photos/jpg
+  139  touch photos/cohort.jpg
+  140  mv photos/*.jpg photos/jpg
+  141  mv photos/*.png photos/png
+  142  touch photos/notes.txt
+  143  mv photos pictures
+  144  open frontend/index.html
+  145  cd photos/
+  146  git init
+  147  cd..
+  148  cd ..
+  149  terminal
+  150  cd
+  151  terminal 
+  152  terminal
+  153  cd terminal
+  154  cd /terminal
+  155  /terminal
+  156  cd terminal
+  157  ls
+  158  desktop
+  159  terminal
+  160  git add .
+  161  git commit -m "message"
+  162  git remove add origin https://github.com/davidhlee94/practicegithubremote.git
+  163  git remote add origin https://github.com/davidhlee94/practicegithubremote.git
+  164  git push origin main
+  165  git remote add origin https://github.com/davidhlee94/practicegithubremote.gitcd
+  166  cd
+  167  terminal
+  168  /terminal
+  169  cd
+  170  ls
+  171  desktop
+  172  terminal
+  173  git clone https://github.com/davidhlee94/practicegithubremote.git
+  174  cd starwars
+  175  ls
+  176  practicegithubremote
+  177  ls
+  178  cd
+  179  ls
+  180  desktop
+  181  terminal
+  182  cd star_wars
+  183  cd Star_Wars
+  184  git push origin master
+  185  git clone https://github.com/davidhlee94/Star_Wars.git
+  186  ls
+  187  mkdir star_wars/empire star_wars/rebellion
+  188  mkdir star_wars
+  189  mkdir star_wars/empire star_wars/rebellion
+  190  mkdir star_wars/empire/darth_vader.txt
+  191  cd star_wars
+  192  ls
+  193  cd empire
+  194  ls
+  195  mkdir darth_vader.txt
+  196  ls
+  197  cd
+  198  cd star_wars
+  199  mkdir star_wars
+  200  ls
+  201  star_wars
+  202  ls
+  203  cd
+  204  ls
+  205  git-practice
+  206  ls
+  207  cd
+  208  ls
+  209  star_wars
+  210  ls
+  211  cd
+  212  ls
+  213  desktop
+  214  ls
+  215  terminal
+  216  ls
+  217  Star_wars
+  218  ls
+  219  mkdir star_wars
+  220  mkdir star_wars/empire star_wars/rebellion
+  221  mkdir star_wars/empire darth_vader.txt
+  222  mkdir star_wars/empire/darth_vader.txt
+  223  cd
+  224  ls
+  225  desktop
+  226  ls
+  227  terminal
+  228  Star_wars
+  229  ls
+  230  mkdir star_wars
+  231  ls
+  232  mkdir star_wars/empire star_wars/rebellion
+  233  touch star_wars/empire/darth_vader.txt
+  234  $echo "...heavy breathing..." >> darth_vader.txt
+  235  $echo ...heavy breathing... >> darth_vader.txt
+  236  echo "...heavy breathing..." >> darth_vader.txt
+  237  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  238  cd
+  239  ls
+  240  desktop
+  241  terminal
+  242  ls
+  243  Star_wars
+  244  ls
+  245  touch star_wars/empire/emperor_palpatine.txt
+  246  mkdir empire/death_star
+  247  mkdir star_wars/empire/death_star
+  248  mv star_wars/emprie/darth_vader.txt star_wars/empire/death_star
+  249  mv star_wars/empiree/darth_vader.txt star_wars/empire/death_star
+  250  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  251  cd star_wars/rebellion
+  252  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  253  touch obi_wan.txt
+  254  touch luke_skywalker.txt
+  255  mkdir millenium_falcon
+  256  touch millenium_falcon/han_solo.txt millenium_falcon/chewbacca.txt
+  257  mv *.txt millenium_falcon
+  258  cd star_wars
+  259  cd
+  260  ls
+  261  desktop
+  262  terminal
+  263  star_wars
+  264  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  265  cd empire
+  266  ls
+  267  star_wars
+  268  ls
+  269  empire
+  270  mv death_star/millenium_falcon/*.txt death_star
+  271  cd
+  272  ls
+  273  desktop
+  274  terminal
+  275  star_wars
+  276  ls
+  277  star_wars
+  278  ls
+  279  empire
+  280  ls
+  281  death_star
+  282  ls
+  283  rm -rf obi_wan.txt
+  284  cd
+  285  ls
+  286  desktop
+  287  terminal
+  288  ls
+  289  star_wars
+  290  ls
+  291  empire
+  292  ls
+  293  death_star
+  294  ls
+  295  mv *.txt millenium_falcon
+  296  mv darth_vader.txt death_star
+  297  mv darth_vader.txt star_wars/empire/death_star
+  298  mv millenium/darth_vader.txt death_star
+  299  cd star_wars
+  300  ls
+  301  cd millenium_falcon
+  302  ls
+  303  cd..
+  304  cd ..
+  305  mv empire/death_star/millenium_falcon/darth_vader.txt empire/death_star
+  306  mv empire/death_star/millenium_falcon rebellion
+  307  mv empire/death_star/darth_vader.txt empire
+  308  rm -rf empire/death_star
