@@ -1,0 +1,47 @@
+  335  cd star_wars
+  336  mkdir empire rebellion
+  337  ls
+  338  pwd
+  339  touch ./empire/darth_vader.txt; echo "...heavy breathing..." ./empire/darth_vader.txt
+  340  cd empire
+  341  cat darth_vader.txt
+  342  echo "...heavy breathing...">> ./empire/darth_vader.txt
+  343  echo "...heavy breathing...">>darth_vader.txt
+  344  cat darth_vader.txt
+  345  touch ./empire/emperor_palpatine.txt
+  346  ls
+  347  cd ..
+  348  pwd
+  349  cd empire
+  350  cd ..
+  351  touch ./empire/emperor_palpatine.txt
+  352  mkdir ./empire/death_star
+  353  mv ./empire/darth_vader.txt ./empire/death_star
+  354  tree .
+  355  pwd
+  356  cd ..
+  357  echo "Help me, Obi-Wan…You’re my only hope." > ./star_wars/rebellion/princess.leia.txt
+  358  ls
+  359  touch ./star_wars/rebellion/obi_wan.txt
+  360  touch ./star_wars/rebellion/luke_skywalker.txt
+  361  mkdir ./star_wars/rebellion/millenium_falcon
+  362  touch ./star_wars/rebellion/han_solo.txt ./star_wars/rebellion/chewbacca.txt
+  363  mv ./star_wars/rebellion/luke_skywalker.txt ./star_wars/rebellion/millenium_falcon\nmv ./star_wars/rebellion/obi_wan.txt ./star_wars/rebellion/millenium_falcon\nmv ./star_wars/rebellion/princess_leia.txt ./star_wars/rebellion/millenium_falcon\n
+  364  mv ./star_wars/rebellion/princess.leia.txt ./star_wars/rebellion/millenium_falcon
+  365  mv mv ./star_wars/rebellion/princess.leia.txt ./star_wars/rebellion/princess_leia.txt
+  366  mv ./star_wars/rebellion/princess.leia.txt ./star_wars/rebellion/princess_leia.txt
+  367  tree .
+  368  mv ./star_wars/millenium_falcon/princess.leia.txt ./star_wars/millenium_falcon/princess_leia.txt
+  369  mv ./star_wars/rebellion/millenium_falcon/princess.leia.txt ./star_wars/rebellion/millenium_falcon/princess_leia.txt
+  370  tree .
+  371  mv ./star_wars/rebellion/millenium_falcon ./star_wars/empire/death_star
+  372  mv ./star_wars/rebellion/han_solo.txt ./star_wars/empire/death_star/millenium_falcon
+  373  mv ./star_wars/rebellion/chewbacca.txt ./star_wars/empire/death_star/millenium_falcon
+  374  mv ./star_wars/empire/death_star/luke_skywalker.txt ./star_wars/empire/millenium_falcon;\nmv ./star_wars/empire/death_star/princess_leia.txt ./star_wars/empire/millenium_falcon;\nmv ./star_wars/empire/death_star/han_solo.txt ./star_wars/empire/millenium_falcon;\nmv ./star_wars/empire/death_star/chewbacca.txt ./star_wars/empire/millenium_falcon
+  375  mv ./star_wars/empire/death_star/millenium_falcon/* ./star_wars/empire/death_star
+  376  rm ./star_wars/empire/death_star/obi_wan.txt
+  377  mv ./star_wars/empire/death_star/luke_skywalker.txt ./star_wars/empire/millenium_falcon;\nmv ./star_wars/empire/death_star/princess_leia.txt ./star_wars/empire/millenium_falcon;\nmv ./star_wars/empire/death_star/han_solo.txt ./star_wars/empire/millenium_falcon;\nmv ./star_wars/empire/death_star/chewbacca.txt ./star_wars/empire/millenium_falcon
+  378  mv ./star_wars/empire/death_star/millenium_falcon ./star_wars/rebellion
+  379  mv ./star_wars/empire/death_star/darth_vader.txt ./star_wars/empire/
+  380  rmdir ./star_wars/empire/death_star
+  381  history tail -n 250
