@@ -1,0 +1,186 @@
+477  git clone https://github.com/prestonmccarthy/Star_Wars.git
+  478  ls
+  479  cd Star_Wars
+  480  code .
+  481  cd act1.sh
+  482  cd Star_Wars
+  483  mkdir Star_Wars
+  484  cd Star_Wars
+  485  ls
+  486  pwd
+  487  mkdir ./Star_Wars/empire ./Star_Wars/rebellion
+  488  cd ..
+  489  mkdir ./Star_Wars/empire ./Star_Wars/rebellion
+  490  ls
+  491  cd Star_Wars
+  492  ls
+  493  cd ..
+  494  cd act1.sh
+  495  ls
+  496  cd Star_Wars
+  497  cd empire
+  498  touch darth_vader.txt
+  499  echo "...heavy breathing..." > darth_vader.txt
+  500  cat darth_vader.txt
+  501  # => ...heavy breathing...
+  502  ls
+  503  pwd
+  504  empire .
+  505  .
+  506  tree .
+  507  cd ..
+  508  cd empire
+  509  touch emperor_palpatine.txt
+  510  mkdir death_star
+  511  mv ./empire/darth_vader.txt ./empire/death_star
+  512  pwd
+  513  mv ./darth_vader.txt ./death_star/
+  514  ls
+  515  death_star
+  516  ls
+  517  cd ..
+  518  git add
+  519  git status
+  520  git add
+  521  cd ..
+  522  git ..
+  523  cd ..
+  524  git add Star_Wars
+  525  git status
+  526  git add act1.sh
+  527  git status
+  528  git commit -m "completed act1.sh directions"
+  529  git push origin master
+  530  cd ..
+  531  pwd
+  532  ls
+  533  cd Star_Wars
+  534  ls
+  535  cd Star_Wars
+  536  ls
+  537  cd rebellion
+  538  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  539  ls
+  540  code .
+  541  touch obi-wan.txt
+  542  touch luke_skywalker.txt
+  543  mkdir millenium_falcon
+  544  cd millenium_falcon
+  545  touch han_solo.txt chewbacca.txt
+  546  ls
+  547  cd ..
+  548  ls
+  549  mv ./luke_skywalker.txt ./millenium_falcon/
+  550  mv ./obi_wan.txt ./millenium_falcon/
+  551  ls
+  552  mv./obi_wan.txt ./millenium_falcon/
+  553  cd millenium_falcon
+  554  ls
+  555  rm obi-wan.txt
+  556  cd rebellion
+  557  pwd
+  558  ls
+  559  cd ..
+  560  touch obi_wan.txt
+  561  ls
+  562  rm obi-wan.txt
+  563  ls
+  564  mv ./obi_wan.txt ./millenium_falcon/
+  565  mv ./princess_leia.txt ./millenium_falcon/
+  566  cd millenium_falcon
+  567  ls
+  568  cd ..
+  569  ls
+  570  pwd
+  571  cd ..
+  572  ls
+  573  cd ..
+  574  ls
+  575  cd empire
+  576  cd Star_Wars
+  577  cd empire
+  578  ls
+  579  pwd
+  580  mv ~/SEIR1031/Star_Wars/Star_Wars/rebellion mv ~/Star_Wars/Star_Wars/empire/death_star
+  581  mv ~/SEIR1031/Star_Wars/Star_Wars/rebellion ~/Star_Wars/Star_Wars/empire/death_star\n
+  582  mv ~/SEIR1031/Star_Wars/Star_Wars/rebellion/millenium_falcon ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  583  ls
+  584  death_star
+  585  ls
+  586  cd ..
+  587  git add Star_Wars
+  588  git status
+  589  git add act2.sh
+  590  git status
+  591  git commit -m "completed act2.sh"
+  592  git push origin master
+  593  ls
+  594  Star_Wars
+  595  ls
+  596  rebellion
+  597  ls
+  598  cd ..
+  599  empire
+  600  ls
+  601  cd ..
+  602  ls
+  603  rebellion
+  604  ls
+  605  tree .
+  606  cd ..
+  607  tree .
+  608  cd Star_Wars
+  609  cd empire/death_star/millenium_falcon
+  610  pwd
+  611  ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star/millenium_falcon/*.txt ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  612  cd ..
+  613  ls
+  614  cd millenium_falcon
+  615  ./* ~~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  616  ls
+  617  ./* ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  618  mv millenium_falcon/*.txt ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  619  ls
+  620  mv millenium_falcon/* ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  621  ./* ~/SEIR1031/Star_Wars/Star_Wars/empire/death_star
+  622  pwd
+  623  mv /Users/prestonmccarthy/SEIR1031/Star_Wars/Star_Wars/empire/death_star/millenium_falcon/*.txt  /Users/prestonmccarthy/SEIR1031/Star_Wars/Star_Wars/empire/death_star/
+  624  ls
+  625  cd ..
+  626  ls
+  627  rm obi_wan.txt
+  628  mv /Users/prestonmccarthy/SEIR1031/Star_Wars/Star_Wars/empire/death_star/*.txt  /Users/prestonmccarthy/SEIR1031/Star_Wars/Star_Wars/empire/death_star/millenium_falcon/ 
+  629  ls
+  630  millenium_falcon
+  631  ls
+  632  mv ./darth_vader.txt /Users/prestonmccarthy/SEIR1031/Star_Wars/Star_Wars/empire/death_star/
+  633  ls
+  634  cd ..
+  635  ls
+  636  cd ..
+  637  pwd
+  638  tree .
+  639  mv ./empire/death_star/millenium_falcon ./rebellion
+  640  ls
+  641  rebellion
+  642  ls
+  643  cd ..
+  644  tree .
+  645  mv ./empire/death_star/darth_vader.txt ./empire
+  646  ls
+  647  empire
+  648  ls
+  649  cd ..
+  650  tree .
+  651  cd empire
+  652  rmdir death_star
+  653  ls
+  654  cd ..
+  655  git add Star_Wars
+  656  git status
+  657  git add act3.sh
+  658  git status
+  659  git commit
+  660  git push origin master
+  661  cd ~
+  662  pwd
