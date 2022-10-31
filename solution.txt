@@ -1,0 +1,266 @@
+maryrodriguez@Marys-MBP seir1031 % git clone git@github.com:mary3210/Star_Wars.git 
+Cloning into 'Star_Wars'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 2
+Receiving objects: 100% (7/7), done.
+maryrodriguez@Marys-MBP seir1031 % ls
+Star_Wars			github_101
+daily-js-code-challenges
+maryrodriguez@Marys-MBP seir1031 % cd Star_Wars 
+maryrodriguez@Marys-MBP Star_Wars % code .
+maryrodriguez@Marys-MBP Star_Wars % mkdir empire rebellion
+maryrodriguez@Marys-MBP Star_Wars % ls
+README.md	act2.sh		empire		solution.txt
+act1.sh		act3.sh		rebellion
+maryrodriguez@Marys-MBP Star_Wars % cd empire 
+maryrodriguez@Marys-MBP empire % touch darth_vader.txt
+maryrodriguez@Marys-MBP empire % ls
+darth_vader.txt
+maryrodriguez@Marys-MBP empire % echo "...heavy breathing..." >> darth_vader.txt 
+maryrodriguez@Marys-MBP empire % touch emperor_palpatine.txt
+maryrodriguez@Marys-MBP empire % ls
+darth_vader.txt		emperor_palpatine.txt
+maryrodriguez@Marys-MBP empire % mkdir death_star
+maryrodriguez@Marys-MBP empire % ls
+darth_vader.txt		death_star		emperor_palpatine.txt
+maryrodriguez@Marys-MBP empire % mv ./ ./death_star
+mv: rename ./ to ./death_star/./: Invalid argument
+maryrodriguez@Marys-MBP empire % mv darth_vader.txt ./death_star
+maryrodriguez@Marys-MBP empire % ls
+death_star		emperor_palpatine.txt
+maryrodriguez@Marys-MBP empire % cd death_star 
+maryrodriguez@Marys-MBP death_star % ls
+darth_vader.txt
+maryrodriguez@Marys-MBP death_star % cd ..
+maryrodriguez@Marys-MBP empire % cd ..
+maryrodriguez@Marys-MBP Star_Wars % cd rebellion 
+maryrodriguez@Marys-MBP rebellion % touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt 
+maryrodriguez@Marys-MBP rebellion % ls
+princess_leia.txt
+maryrodriguez@Marys-MBP rebellion % touch obi_wan.txt
+maryrodriguez@Marys-MBP rebellion % ls
+obi_wan.txt		princess_leia.txt
+maryrodriguez@Marys-MBP rebellion % touch luke_skywalker.txt
+maryrodriguez@Marys-MBP rebellion % ls
+luke_skywalker.txt	obi_wan.txt		princess_leia.txt
+maryrodriguez@Marys-MBP rebellion % mkdir millenium_falcon 
+maryrodriguez@Marys-MBP rebellion % ls
+luke_skywalker.txt	obi_wan.txt
+millenium_falcon	princess_leia.txt
+maryrodriguez@Marys-MBP rebellion % cd millenium_falcon 
+maryrodriguez@Marys-MBP millenium_falcon % touch han_solo.txt chewbacca.txt
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt	han_solo.txt
+maryrodriguez@Marys-MBP millenium_falcon % mv *.rebellion .
+zsh: no matches found: *.rebellion
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt	han_solo.txt
+maryrodriguez@Marys-MBP millenium_falcon % cd ..
+maryrodriguez@Marys-MBP rebellion % mv *.rebellion .
+zsh: no matches found: *.rebellion
+maryrodriguez@Marys-MBP rebellion % cd millenium_falcon 
+maryrodriguez@Marys-MBP millenium_falcon % tree
+.
+├── chewbacca.txt
+└── han_solo.txt
+
+0 directories, 2 files
+maryrodriguez@Marys-MBP millenium_falcon % mv ../*.file .
+zsh: no matches found: ../*.file
+maryrodriguez@Marys-MBP millenium_falcon % mv ../*.txt . 
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt		luke_skywalker.txt	princess_leia.txt
+han_solo.txt		obi_wan.txt
+maryrodriguez@Marys-MBP millenium_falcon % tree 
+.
+├── chewbacca.txt
+├── han_solo.txt
+├── luke_skywalker.txt
+├── obi_wan.txt
+└── princess_leia.txt
+
+0 directories, 5 files
+maryrodriguez@Marys-MBP millenium_falcon % mv . ../empire
+mv: rename . to ../empire: Invalid argument
+maryrodriguez@Marys-MBP millenium_falcon % tree         
+.
+├── chewbacca.txt
+├── han_solo.txt
+├── luke_skywalker.txt
+├── obi_wan.txt
+└── princess_leia.txt
+
+0 directories, 5 files
+maryrodriguez@Marys-MBP millenium_falcon % cd ..
+maryrodriguez@Marys-MBP rebellion % tree
+.
+└── millenium_falcon
+    ├── chewbacca.txt
+    ├── han_solo.txt
+    ├── luke_skywalker.txt
+    ├── obi_wan.txt
+    └── princess_leia.txt
+
+1 directory, 5 files
+maryrodriguez@Marys-MBP rebellion % cd ..
+maryrodriguez@Marys-MBP Star_Wars % ls
+README.md	act2.sh		empire		solution.txt
+act1.sh		act3.sh		rebellion
+maryrodriguez@Marys-MBP Star_Wars % cd rebello  
+cd: no such file or directory: rebello
+maryrodriguez@Marys-MBP Star_Wars % cd rebellion 
+maryrodriguez@Marys-MBP rebellion % cd millenium_falcon 
+maryrodriguez@Marys-MBP millenium_falcon % mv ~/seir1031/star_wars/rebellion/millenium_falcon ~/seir1031/star_wars/empire/death_star
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt		luke_skywalker.txt	princess_leia.txt
+han_solo.txt		obi_wan.txt
+maryrodriguez@Marys-MBP millenium_falcon % mv ./*.txt ~/seir1031/star_wars/empire/death_star
+maryrodriguez@Marys-MBP millenium_falcon % ls
+maryrodriguez@Marys-MBP millenium_falcon % cd ..
+maryrodriguez@Marys-MBP death_star % ls
+chewbacca.txt		luke_skywalker.txt	princess_leia.txt
+darth_vader.txt		millenium_falcon
+han_solo.txt		obi_wan.txt
+maryrodriguez@Marys-MBP death_star % rm obi_wan.txt 
+maryrodriguez@Marys-MBP death_star % ls
+chewbacca.txt		han_solo.txt		millenium_falcon
+darth_vader.txt		luke_skywalker.txt	princess_leia.txt
+maryrodriguez@Marys-MBP death_star % mv  ./*.txt ./millenium_falcon  
+maryrodriguez@Marys-MBP death_star % ls
+millenium_falcon
+maryrodriguez@Marys-MBP death_star % tree 
+.
+└── millenium_falcon
+    ├── chewbacca.txt
+    ├── darth_vader.txt
+    ├── han_solo.txt
+    ├── luke_skywalker.txt
+    └── princess_leia.txt
+
+1 directory, 5 files
+maryrodriguez@Marys-MBP death_star % mv ~/seir1031/star_wars/empire/death_star/millenium_falcon/ ~/seir1031/star_wars/rebellion 
+maryrodriguez@Marys-MBP death_star % ls
+maryrodriguez@Marys-MBP death_star % cd ..
+maryrodriguez@Marys-MBP empire % tree
+.
+├── death_star
+└── emperor_palpatine.txt
+
+1 directory, 1 file
+maryrodriguez@Marys-MBP empire % cd ..
+maryrodriguez@Marys-MBP Star_Wars % ls
+README.md	act2.sh		empire		solution.txt
+act1.sh		act3.sh		rebellion
+maryrodriguez@Marys-MBP Star_Wars % cd rebellion
+maryrodriguez@Marys-MBP rebellion % ls
+millenium_falcon
+maryrodriguez@Marys-MBP rebellion % cd millenium_falcon 
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt		han_solo.txt		princess_leia.txt
+darth_vader.txt		luke_skywalker.txt
+maryrodriguez@Marys-MBP millenium_falcon % mv darth_vader.txt ../empire
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt		luke_skywalker.txt
+han_solo.txt		princess_leia.txt
+maryrodriguez@Marys-MBP millenium_falcon % cd ..
+maryrodriguez@Marys-MBP rebellion % cd ..
+maryrodriguez@Marys-MBP Star_Wars % cd empire
+maryrodriguez@Marys-MBP empire % ls
+death_star		emperor_palpatine.txt
+maryrodriguez@Marys-MBP empire % rm death_star 
+rm: death_star: is a directory
+maryrodriguez@Marys-MBP empire % rmdir death_star 
+maryrodriguez@Marys-MBP empire % ls
+emperor_palpatine.txt
+maryrodriguez@Marys-MBP empire % cd ..
+maryrodriguez@Marys-MBP Star_Wars % cd rebellion 
+maryrodriguez@Marys-MBP rebellion % cd millenium_falcon 
+maryrodriguez@Marys-MBP millenium_falcon % mv empire darth_vader.txt 
+mv: rename empire to darth_vader.txt: No such file or directory
+maryrodriguez@Marys-MBP millenium_falcon % mv darth_vader.txt ~/seir1031/star_wars/empire
+mv: rename darth_vader.txt to /Users/maryrodriguez/seir1031/star_wars/empire/darth_vader.txt: No such file or directory
+maryrodriguez@Marys-MBP millenium_falcon % mv ./darth_vader.txt ~/seir1031/star_wars/empire
+mv: rename ./darth_vader.txt to /Users/maryrodriguez/seir1031/star_wars/empire/darth_vader.txt: No such file or directory
+maryrodriguez@Marys-MBP millenium_falcon % mv darth_vader.txt ../../empire                 
+maryrodriguez@Marys-MBP millenium_falcon % ls
+chewbacca.txt		luke_skywalker.txt
+han_solo.txt		princess_leia.txt
+maryrodriguez@Marys-MBP millenium_falcon % history | tail -n 250
+  262  ls
+  263  cd ..
+  264  cd ..
+  265  cd empire
+  266  ls
+  267  rm death_star
+  268  rmdir death_star
+  269  ls
+  270  cd ..
+  271  cd rebellion
+  272  cd millenium_falcon
+  273  mv empire darth_vader.txt 
+  274  mv darth_vader.txt ~/seir1031/star_wars/empire
+  275  mv ./darth_vader.txt ~/seir1031/star_wars/empire
+  276  mv darth_vader.txt ../../empire
+  277  ls
+maryrodriguez@Marys-MBP millenium_falcon % clear
+
+maryrodriguez@Marys-MBP millenium_falcon % history | tail -n 250
+  264  cd ..
+  265  cd empire
+  266  ls
+  267  rm death_star
+  268  rmdir death_star
+  269  ls
+  270  cd ..
+  271  cd rebellion
+  272  cd millenium_falcon
+  273  mv empire darth_vader.txt 
+  274  mv darth_vader.txt ~/seir1031/star_wars/empire
+  275  mv ./darth_vader.txt ~/seir1031/star_wars/empire
+  276  mv darth_vader.txt ../../empire
+  277  ls
+  278  history | tail -n 250
+  279  clear
+maryrodriguez@Marys-MBP millenium_falcon % cd ..
+maryrodriguez@Marys-MBP rebellion % cd..
+zsh: command not found: cd..
+maryrodriguez@Marys-MBP rebellion % cd..
+zsh: command not found: cd..
+maryrodriguez@Marys-MBP rebellion % cd ..
+maryrodriguez@Marys-MBP Star_Wars % history | tail -n 250
+  269  ls
+  270  cd ..
+  271  cd rebellion
+  272  cd millenium_falcon
+  273  mv empire darth_vader.txt 
+  274  mv darth_vader.txt ~/seir1031/star_wars/empire
+  275  mv ./darth_vader.txt ~/seir1031/star_wars/empire
+  276  mv darth_vader.txt ../../empire
+  277  ls
+  278  history | tail -n 250
+  279  clear
+  280  history | tail -n 250
+  281  cd ..
+  282  cd..
+  283  cd..
+  284  cd ..
+maryrodriguez@Marys-MBP Star_Wars % history | tail -n 500
+  270  cd ..
+  271  cd rebellion
+  272  cd millenium_falcon
+  273  mv empire darth_vader.txt 
+  274  mv darth_vader.txt ~/seir1031/star_wars/empire
+  275  mv ./darth_vader.txt ~/seir1031/star_wars/empire
+  276  mv darth_vader.txt ../../empire
+  277  ls
+  278  history | tail -n 250
+  279  clear
+  280  history | tail -n 250
+  281  cd ..
+  282  cd..
+  283  cd..
+  284  cd ..
+  285  history | tail -n 250
+maryrodriguez@Marys-MBP Star_Wars % 
