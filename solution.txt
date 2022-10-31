@@ -1,0 +1,42 @@
+cd deliverables/Star_Wars
+  135  mkdir star_wars
+  136  cd star_wars
+  137  mkdir empire rebellion
+  138  cd empire
+  139  touch darth_vader.txt
+  140  touch emperor_palpatine.txt
+  141  mkdir death_star
+  142  mv darth_vader.txt death_star/
+  143  cd ..
+  144  cd rebellion
+  145  touch princess_leia.txt
+  146  touch luke_skywalker.txt
+  147  mkdir millenium_falcon
+  148  cd millenium_falcon
+  149  touch han_solo.txt chewbacca.txt
+  150  cd ..
+  151  touch obi_wan.txt
+  152  mv *.txt millenium_falcon
+  153  mv millenium_falcon ..
+  154  mv millenium_falcon star_wars/empire/death_star
+  155  mv millenium_falcon empire/death_star
+  156  mv millenium_falcon empire/
+  157  cd ..
+  158  cd empire/death_star
+  159  mv millenium_falcon/* death_star
+  160  mv millenium_falcon/* ..
+  161  rm obi_wan.txt
+  162  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon/
+  163  mv millenium_falcon/ ..
+  164  mv millenium_falcon/ ./rebellion
+  165  mv millenium_falcon/ ..
+  166  cd ..
+  167  mv millenium_falcon/ ..
+  168  cd ..
+  169  mv millenium_falcon/ rebellon/
+  170  mv rebellon/ millenium_falcon/
+  171  mv millenium_falcon /rebellion/
+  172  mv millenium_falcon rebellion/
+  173  mv darth_vader.txt ..
+  174  cd empire/death_star
+  175  mv darth_vader.txt ..
