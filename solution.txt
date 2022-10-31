@@ -1,0 +1,42 @@
+  348  git clone https://github.com/Maripirs/Star_Wars-Maripi
+  349  ls
+  350  cd Star_Wars-Maripi
+  351  git add.
+  352  git add .
+  353  git commit -m 'First 3 parts of act 1 completed'
+  354  git remote add origin https://github.com/Maripirs/Star_Wars-Maripi
+  355  git push origin master
+  356  mkdir star_wars
+  357  mkdir star_wars/empire star_wars/rebellion
+  358  touch star_wars/empire/darth_vader.txt
+  359  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  360  touch star_wars/empire emperor_palpatine.txt
+  361  touch star_wars/empire/emperor_palpatine.txt
+  362  mkdir star_wars/empire/death_star
+  363  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  364  git add .
+  365  git commit -m "act1 done"
+  366  git push origin master
+  367  echo "Help" >> test.txt
+  368  echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess_leia
+  369  touch star_wars/rebellion/obi_wan.txt
+  370  touch star_wars/rebellion/luke_skywalker.txt
+  371  mkdir star_wars/rebellion/millenium_falcon
+  372  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  373  mv star_wars/rebellion/*.txt star_wars/rebellion/millenium_falcon
+  374  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  375  git add .
+  376  git commit -m "act 2 completed"
+  377  git push origin master
+  378  mv star_wars/empire/death_star/millenium_falcon/*.txt ..
+  379  mv star_wars/empire/death_star/millenium_falcon/*.txt star_wars/empire/death_star
+  380  rm star_wars/empire/death_star/obi_wan.txt
+  381  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia star_wars/empire/death_star/millenium_falcon
+  382  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  383  mv star_wars/empire/death_star/darth_vader star_wars/empire
+  384  mv star_wars/empire/death_star/darth_vade.txtr star_wars/empire
+  385  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  386  rm -r star_wars/empire/death_star
+  387  git add .
+  388  git commit -m "act 3 completed"
+  389  git push origin master
