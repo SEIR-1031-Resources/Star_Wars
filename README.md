@@ -48,6 +48,92 @@ history | tail -n 250
 * This command will limit the history to the last 250 commands, but the number can be changed if more lines are needed
 * Copy and paste your terminal history into the `solution.txt` file to finish this deliverable
 
+ 703  git clone git@github.com:jet26cheng/Star_Wars.git
+  704  ls
+  705  cd Star_Wars
+  706  ls
+  707  code . 
+  708  mkdir star_wars/empire star_wars/rebellion
+  709  mkdir star_wars 
+  710  mkdir star_wars/empire star_wars/rebellion
+  711  touch star_wars/empire/darth_vader.txt
+  712  echo "...heavy breathing..." > darth_vader.txt 
+  713  ls
+  714  rm darth_vader.txt 
+  715  ls
+  716  cd star_wars
+  717  ls
+  718  cd empire 
+  719  ls
+  720  echo "...heavy breathing..." > darth_vader.txt
+  721  touch emperor _palpatine.txt 
+  722  mkdir death_star
+  723  ls
+  724  mv darth_vader.txt death_star/
+  725  git add . 
+  726  git commit -m "act 1 completed" 
+  727  cd ..
+  728  ls
+  729  cd rebellion
+  730  echo "Help me,Obi-Wan..You're my only hope" > princess_leia.txt
+  731  touch obi_wan.txt 
+  732  touch luke_skywalker.txt
+  733  mkdir millenium_falcon 
+  734  cd millenium_falcon 
+  735  touch han_solo.txt chewbacca.txt 
+  736  mv luke_skywalker.txt millenium_falcon/
+  737  cd.. 
+  738  cd ..
+  739  mv obi_wan.txt millenium_falcon/
+  740  mv princess_leia.txt millenium_falcon/
+  741  ls
+  742  mv millenium_falcon ../
+  743  mv millenium_falcon empire/ 
+  744  mv millenium_falcon ../death_star
+  745  mv millenium_falcon ./death_star
+  746  mv millenium_falcon empire/
+  747  mv millenium_falcon ./empire 
+  748  mv millenium_falcon ../empire 
+  749  mv millenium_falcon star_wars/empire/death_star
+  750  mv millenium_falcon empire/death_star
+  751  cd.. 
+  752  cd .. 
+  753  mv millenium_falcon empire/death_star/
+  754  cd ls
+  755  ls
+  756  cd empire 
+  757  cd death_star
+  758  ls
+  759  cd millenium_falcon 
+  760  mv chewacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt death_star/
+  761  mv chewacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../death_star/
+  762  mv chewacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../
+  763  mv chewbacca.txt ../ 
+  764  cd .. 
+  765  rm obi_wan.txt
+  766  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon/
+  767  mv millenium_falcon ../
+  768  mv millenium flacon ../ 
+  769  mv millenium_falcon ../
+  770  cd .. 
+  771  mv millenium_falcon ../ 
+  772  cd .. 
+  773  mv millenium_falcon rebellion/
+  774  cd death_star 
+  775  ls
+  776  cd empire 
+  777  cd death_star 
+  778  ld
+  779  ls
+  780  mv darth_vader.txt ../ 
+  781  cd .. 
+  782  rm death_star 
+  783  rmdir death_star 
+  784  git add . 
+  785  git commit -m "Homework Completed" 
+  786  `history` 
+  787  `history`
+
 ![star-wars-the-end](https://media.giphy.com/media/iQn33nEos213i/giphy.gif)
 
 ## Submission Guidelines
