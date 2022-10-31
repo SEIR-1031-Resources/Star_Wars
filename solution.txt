@@ -71,3 +71,69 @@ Act 2
   255  cd ..
   256  git add .
   257  git commit -m "Created princess_leia text file with text, created obi_wan and luke_skylwalker text files in rebellion directory, created millenium falcon directory inside rebellion directory. Created han_solo and chewbacca text files inside millenium_falcon directory. Moved luke_skywalker, obi_wan, and princess_leia text files into millenium_falcon directory. moved millenium_falcon directory into death_star directory."
+
+  Act 3
+  259  mv millenium_falcon/ '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  260  mv -v ~/millenium_falcon/* ~/death_star
+  261  mv -v ~/Users/natalieperez/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~'/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  262  cd millenium_falcon
+  263  cd empire
+  264  cd death_star
+  265  cd_millenium_facon
+  266  cd millenium_falcon
+  267  mv -v ~/millenium_falcon/* ~'/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  268  mv -v ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~'/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  269  mv -v ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~'Star_Wars/star_wars/empire/death_star'
+  270  cd ..
+  271  cd ~
+  272  cd Star_Wars
+  273  mv -v ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~'Star_Wars/star_wars/empire/death_star' 
+  274  cd ..
+  275  mv -v ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~'Star_Wars/star_wars/empire/death_star' \nzsh: no such user or named directory: Star_Wars
+  276  mv -v ~/star_wars/empire/death_star/millenium_falcon/* ~/star_wars/empire/death_star
+  277  cd millenium_falcon
+  278  mv -v millenium_falcon/* death_star
+  279  cd star_wars
+  280  cd Star_Wars
+  281  ls
+  282  cd natalieperez
+  283  mv -v millenium_falcon/* death_star
+  284  cd Star_Wars
+  285  cd star_wars
+  286  mv -v millenium_falcon/* death_star
+  287  mv -v /millenium_falcon/* death_star
+  288  cd empire
+  289  cd death_star
+  290  ls
+  291  mv -v millenium_falcon/* death_star
+  292  mv -v millenium_falcon/* '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  293  rm obi_wan.txt
+  294  mv -v death_star/* '/Users/natalieperez/Star_Wars/star_wars/empire/death_star/millenium_falcon'
+  295  cd ..
+  296  mv -v death_star/* '/Users/natalieperez/Star_Wars/star_wars/empire/death_star/millenium_falcon'
+  297  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  298  mv millenium_falcon '/Users/natalieperez/Star_Wars/star_wars/rebellion'
+  299  cd death_star
+  300  mv millenium_falcon '/Users/natalieperez/Star_Wars/star_wars/rebellion'
+  301  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  302  cd ..
+  303  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  304  cd ..
+  305  cd rebellion
+  306  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  307  cd millenium_falcon
+  308  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  309  cd ..
+  310  cd .
+  311  cd ..
+  312  cd empire
+  313  cd death_star
+  314  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire'
+  315  cd ..
+  316  rm death_star
+  317  rm -R death_star
+  318  cd ~
+  319  ls
+  320  cd Star_Wars
+  321  git add .
+  322  git commit -m "Moved millenium_falcon files into death_star directory. Deleted obi-wan. Moved contents from death_star back into millenium_falcon. Moved milleniu_falcon directory back into rebellion directory. Moved darth_vader into empire directory. Deleted death_star."
