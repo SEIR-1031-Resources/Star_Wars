@@ -1,0 +1,73 @@
+Act 1:
+  186  git clone git@github.com:npereznyc/Star_Wars.git
+  187  code .
+  188  cd Star_Wars
+  189  code .
+  190  ls
+  191  cd act1.sh
+  192  mkdir star_wars
+  193  cd act1
+  194  cd act1.sh
+  195  mkdir star_wars.empire && star_wars.rebellion
+  196  mkdir .empire && .rebellion
+  197  mkdir empire && rebellion
+  198  mkdir rebellion
+  199  cd empire
+  200  touch darth_vader.txt
+  201  cd star_wars
+  202  mkdir empire rebellion
+  203  cd empire
+  204  touch darth_vader.txt
+  205  touch emperor_palpatine.txt
+  206  mkdir death_star
+  207  mv .darth_vader.txt death_star
+  208  mv ~/star_wars/empire/darth_vader.txt ~/empire/death_star
+  209  ~/star_wars/empire/darth_vader.txt ~/star_wars/empire/death_star
+  210  cd Star_Wars
+  211  cd ~
+  212  cd act1.sh
+  213  cd empire
+  214  .
+  215  pwd
+  216  cd Star_Wars
+  217  cd empire
+  218  cd star_wars
+  219  cd empire
+  220  mv darth_vader.txt ~/Users/natalieperez/Star_Wars/star_wars/empire/death_star
+  221  mv ~/empire/darth_vader.txt ~/empire/death_star/darth_vader.txt
+  222  mv darth_vader.txt '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  223  git add .
+  224  git commit -m "Created star_wars directory and the empire and rebellion directories within it. Created the text file darth_vader inside the empire directory, with the text "..heavy breathing...". Created the text file emperor_palpatine inside the empire directory. Created a new direcotry called death_star inside the empire directory, and then moved the darth_vader text file into it."
+  225  cd Star_Wars
+  226  cd ..
+  227  git all
+  228  git add.
+  229  git add .
+  230  git commit -m "Created star_wars directory and the empire and rebellion directories within it. Created the \ntext file darth_vader inside the empire directory, with the text ...heavy breathing... . Created the text file emperor_palpatine ins\nide the empire directory. Created a new direcotry called death_star inside the empire directory, and then moved the darth_vader text\n file into it."
+Act 2
+  232  cd rebellion
+  233  cd star_wars
+  234  cd rebellion
+  235  touch obi_wan.txt
+  236  touch luke_skywalker.txt
+  237  mkdir millenium_falcon
+  238  cd millenium_falcon
+  239  touch han_solo.txt
+  240  touch chewbacca.txt
+  241  mv luke_skywalker.txt '/Users/natalieperez/Star_Wars/star_wars/rebellion/millenium_falcon'
+  242  cd ..
+  243  mv luke_skywalker.txt '/Users/natalieperez/Star_Wars/star_wars/rebellion/millenium_falcon'
+  244  touch princess_leia.txt; echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  245  mv princess_leia.txt '/Users/natalieperez/Star_Wars/star_wars/rebellion/millenium_falcon'
+  246  mv obi_wan.txt '/Users/natalieperez/Star_Wars/star_wars/rebellion/millenium_falcon'
+  247  mv millenium_falcon'/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  248  cd .
+  249  cd ..
+  250  cd millenium_falcn
+  251  cd millenium_falcon
+  252  cd rebellion
+  253  ls
+  254  mv millenium_falcon '/Users/natalieperez/Star_Wars/star_wars/empire/death_star'
+  255  cd ..
+  256  git add .
+  257  git commit -m "Created princess_leia text file with text, created obi_wan and luke_skylwalker text files in rebellion directory, created millenium falcon directory inside rebellion directory. Created han_solo and chewbacca text files inside millenium_falcon directory. Moved luke_skywalker, obi_wan, and princess_leia text files into millenium_falcon directory. moved millenium_falcon directory into death_star directory."
