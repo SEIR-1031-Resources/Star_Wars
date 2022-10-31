@@ -1,0 +1,82 @@
+  123  cd sei/
+  124  ls
+  125  cd Star_Wars/
+  126  ls
+  127  mkdir star_wars
+  128  cd star_wars/
+  129  mkdir empire rebellion
+  130  cd empire/
+  131  ls
+  132  touch darth_vader.txt
+  133  ls
+  134  echo '...heavy breathing...' > darth_vader.txt
+  135  touch emperor_palpatine.txt
+  136  ls
+  137  mkdir death_star
+  138  mv darth_vader.txt ./death_star/
+  139  ls
+  140  cd ..
+  141  cd rebellion/
+  142  touch princess_leia.txt && echo 'Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+  143  ls
+  144  cd sei/
+  145  cd Star_Wars/star_wars/rebellion/
+  146  ls
+  147  cat princess_leia.txt
+  148  touch princess_leia.txt
+  149  ls
+  150  echo 'Help me, Obi-Wan…You’re my only hope.' > princess_leia.txt
+  151  ls
+  152  touch obi_wan.txt
+  153  mkdir millenium_falcon
+  154  cd millenium_falcon/
+  155  touch han_solo.txt chewbacca.txt
+  156  ls
+  157  cd ..
+  158  ls
+  159  touch luke_skywalker.txt
+  160  ls
+  161  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ./millenium_falcon/
+  162  ls
+  163  mv millenium_falcon/ ~/sei/Star_Wars/star_wars/empire/death_star/
+  164  ls
+  165  cd ..
+  166  ls
+  167  cd empire/
+  168  ls
+  169  cd death_star/
+  170  ls
+  171  cd millenium_falcon/
+  172  ls
+  173  mv *.txt ..
+  174  ls
+  175  cd ..
+  176  ls
+  177  rm obi_wan.txt
+  178  ls
+  179  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/Star_Wars/star_wars/empire/death_star/millenium_falcon/
+  180  ls
+  181  cd millenium_falcon/
+  182  ls
+  183  ls
+  184  cd ..
+  185  ls
+  186  mv millenium_falcon/ ~/sei/Star_Wars/star_wars/rebellion/
+  187  ls
+  188  cd ..
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd rebellion/
+  193  ls
+  194  cd ~/sei/Star_Wars/star_wars/empire/
+  195  ls
+  196  cd death_star/
+  197  mv darth_vader.txt ..
+  198  cd ..
+  199  ls
+  200  rm death_star/
+  201  ls
+  202  rmdir death_star/
+  203  ls
+  204  history | tail -n 250
