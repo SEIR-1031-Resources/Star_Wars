@@ -1,0 +1,110 @@
+  801  deliverables
+  802  git@github.com:BrandonTobin/Star_Wars.git
+  803  git clone git@github.com:BrandonTobin/Star_Wars.git
+  804  cd Star_Wars
+  805  code .
+  806  mkdir star_wars
+  807  ls
+  808  star_wars
+  809  mkdir empire rebellion
+  810  ls
+  811  empire
+  812  touch darth_vader.txt
+  813  ls
+  814  darth_vader.txt
+  815  mkdir star_wars
+  816  ls
+  817  star_wars
+  818  mkdir empire rebellion
+  819  empire
+  820  touch darth_vader.txt
+  821  ls
+  822  darth_vader.txt
+  823  ls
+  824  empire darth_vader.txt
+  825  ls
+  826  cat darth_vader.txt
+  827  echo '...heavy breathing...' > darth_vader.txt
+  828  cat darth_vader.txt
+  829* echo '...heavy breathing...' > darth_vader.txt
+  830* darth_vader.txt
+  831* cat darth_vader.txxt
+  832* cat darth_vader.txt
+  833  touch emperor_paplatine.txt
+  834  mkdir death_star
+  835  mv darth_vader.txt death_star
+  836  ..
+  837  rebellion
+  838  touch princess_leia.txt echo "Help me, Obi-Wan...You're my only hope."
+  839* ..
+  840* rebellion
+  841  echo "Help me, Obi-Wan...You're my only hope." > touch princess_leia.txt
+  842  touch princess_leia.txt
+  843  ls
+  844  echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  845  touch obi_wan.txt
+  846* touch princess_leia.txt
+  847* echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  848* touch obi_wan.txt
+  849  touch luke_skywalker.txt
+  850  mkdir millenium_falcon
+  851  ls
+  852  millenium_falcon
+  853  touch han.solo.txt chewbacca.txt
+  854* ls
+  855* ..
+  856* rebellion
+  857* millenium_falcon
+  858* touch han.solo.txt chewbacca.txt
+  859  ..
+  860  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  861  millenium_falcon
+  862  ..
+  863  mv millenium_falcon death_star
+  864  ls
+  865  death_star
+  866  ;s
+  867  ls
+  868  git status
+  869  pwd
+  870  ..
+  871  ll
+  872  ..
+  873  pwd
+  874  l
+  875  l;
+  876  ls
+  877  star_wars
+  878  ls
+  879  rebellion
+  880  ll
+  881  death_star
+  882  ll
+  883  mv chewbacca.txt han.solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../death_star
+  884  mv chewbacca.txt han.solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../../empire/death_star
+  885  pwd
+  886  ..
+  887  rmdir death_star
+  888  ..
+  889  empire/
+  890  ls
+  891  death_star
+  892  mkdir millenium_falcon
+  893  mv chewbacca.txt darth_vader.txt han.solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  894  mkdir scratch
+  895  rmdir scratch
+  896  ls
+  897  millenium_falcon
+  898  ..
+  899  mv millenium_falcon/* .
+  900  rm obi_wan.txt
+  901  mv chewbacca.txt han.solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  902  mv millenium_falcon ../../rebellion
+  903  mv darth_vader.txt ../../empire
+  904  ll
+  905  ls
+  906  ll
+  907  ls
+  908  ..
+  909  rmdir death_star
+  910  history
