@@ -1,0 +1,139 @@
+  220  cd sei
+  221  mkdir homework
+  222  ls
+  223  cd homework
+  224  git clone https://github.com/timiscarrington/Star_Wars.git
+  225  code .
+  226  ls
+  227  cd Star_Wars
+  228  mkdir star_wars
+  229  cd star_wars
+  230  mkdir empire rebellion
+  231  ls
+  232  cd empire
+  233  pwd
+  234  touch darth_vader.txt
+  235  pwd
+  236  ls
+  237  git status
+  238  git add .
+  239  git commit -m "Star Wars Act 1 first commit"
+  240  git status
+  241  git push origin main
+  242  git push origin
+  243  pwd
+  244  cd da
+  245  pwd
+  246  ls
+  247  echo "...heavy breathing..." > darth_vader.txt
+  248  git add .
+  249  git commit -m "echo"
+  250  git push origin
+  251  pwd
+  252  touch emperor_palpatine.txt
+  253  ls
+  254  mkdir death_star
+  255  ls
+  256  mv darth_vader.txt death_star
+  257  ls
+  258  cd death_star
+  259  ls
+  260  git add .
+  261  git commit -m "completed Act 1"
+  262  git push origin
+  263  cd ..
+  264  ls
+  265  cd rebellion
+  266  echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  267  ls
+  268  touch obi_wan.txt
+  269  ls
+  270  touch luke_skywalker.txt
+  271  ls
+  272  mkdir millenium_falcon
+  273  cd millenium_falcon
+  274  push han_solo.txt chewbacca.txt
+  275  touch han_solo.txt chewbacca.txt
+  276  ls
+  277  cd..
+  278  cd ..
+  279  ls
+  280  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  281  ls
+  282  cd millenium_falcon
+  283  ls
+  284  cd..
+  285  cd ..
+  286  mv ~ /star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star/
+  287  ls
+  288  cd rebellion
+  289  ls
+  290  cd ..
+  291  ;s
+  292  ls
+  293  cd emp
+  294  cd empire
+  295  cd death_star
+  296  ;s
+  297  ls
+  298  cd ..
+  299  cd reb
+  300  cd rebellion
+  301  ls
+  302  mv millenium_falcon star_wars/empire/death_star
+  303  ls
+  304  cd ..
+  305  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  306  cd rebellion
+  307  cd ls
+  308  git add .
+  309  git commit -m "Act2 Complete"
+  310  git push origin
+  311  cd ..
+  312  cd empire
+  313  cd death_star
+  314  ls
+  315  cd..
+  316  cd.
+  317  cd..
+  318  cd ..
+  319  ls
+  320  cd empire
+  321  ls 
+  322  cd death_star
+  323  ls
+  324  cd ..
+  325  cd reb
+  326  ls
+  327  cd rebellion
+  328  ls
+  329  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  330  cd millenium_falcon
+  331  ls
+  332  cd ..
+  333  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  334  cd ..
+  335  cd star_wars
+  336  mv rebellion/millenium_falcon empire/death_star
+  337  cd empire
+  338  cd death_star
+  339  mv millenium_falcon/* death_star
+  340  cd ..
+  341  mv death_star/millenium_falcon/* death_star
+  342  ls
+  343  cd death_star
+  344  ls
+  345  rm obi_wan.txt
+  346  ls
+  347  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  348  pwd
+  349  cd ..
+  350  mv empire/death_star/darth_vader.txt empire
+  351  cd empire
+  352  ls
+  353  rd  death_star
+  354  git add .
+  355  git commit -m "Act three complete"
+  356  git push origin
+  357  `history`
+  358  history | tail -n 300
