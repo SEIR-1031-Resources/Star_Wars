@@ -1,0 +1,236 @@
+➜  empire git:(master) ✗ history | tail -n 250
+    1  echo $SHELL
+    2  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    3  code .
+    4  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    5  brew doctor
+    6   echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/a.cheer/.zprofile
+    7  export PATH=$PATH:/opt/homebrew/bin
+    8  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/a.cheer/.zprofile
+    9  brew help
+   10  echo '# Set PATH, MANPATH, etc., for Homebrew.'
+   11  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
+   12  eval "$(/opt/homebrew/bin/brew shellenv)"
+   13  export PATH=$PATH:/opt/homebrew/bin
+   14  brew doctor
+   15  xcode-select --install
+   16  brew install git
+   17  echo '# Set PATH, MANPATH, etc., for Homebrew.'
+   18  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
+   19  eval "$(/opt/homebrew/bin/brew shellenv)"
+   20  brew doctor
+   21  brew update
+   22  export PATH=$PATH:/opt/homebrew/bin
+   23  brew doctor
+   24  brew install git
+   25  eval "$(/opt/homebrew/bin/brew shellenv)"
+   26  eval "$(/opt/homebrew/bin/brew shellenv)"
+   27  which -a brew
+   28  brew install git
+   29  arch -arm64 brew install git
+   30  git config --global user.name "ShadowTorn33"
+   31  git config --global user.email "austincheer94@gmail.com"
+   32  git config --global init.defaultBranch main
+   33  git config --global core.editor "code --wait"
+   34  git config --global pull.rebase false
+   35  touch ~/.gitignore_global
+   36  git config --global core.excludesfile ~/.gitignore_global
+   37  code ~/.gitignore_global
+   38  code ~/.gitignore_global
+   39  brew install gh
+   40  arch -arm64 brew install gh
+   41  gh auth login
+   42  brew install node
+   43  arch -arm64 brew install node
+   44  node -v
+   45  npm -v
+   46  npm i -g nodemon
+   47  pwd
+   48  mkdir photos
+   49  pwd
+   50  mkdir sei
+   51  cd sei
+   52  mkdir labs fundamentals projects repos code-along deliverables sandbox
+   53  ls
+   54  mv sandbox experiments
+   55  pwd
+   56  mkdir frontend
+   57  cd frontend
+   58  touch index.html
+   59  touch main.css hmm.js
+   60  open frontend/index.html
+   61  open index.html
+   62  cd sei
+   63  cs SEI
+   64  pwd
+   65  cd .
+   66  cd ..
+   67  mkdir craftsman-way
+   68  cd craftsman-way
+   69  touch index.html style.css brains.js
+   70  mv craftsman-way ~/
+   71  mv ..craftsman-way
+   72  ls
+   73  cs ./
+   74  cd ./
+   75  cd..
+   76  cd ..
+   77  mkdir dad-website
+   78  cd dad-website
+   79  ls
+   80  mv craftsman-way/dad-website
+   81  cd sei
+   82  cs ..
+   83  cd ..
+   84  cd sei
+   85  mv craftsman-way/dad-website
+   86  cd ..
+   87  mv sei/craftsman-way ./
+   88  ls
+   89  mv craftsman-way dad-website
+   90  cd deliverables
+   91  cd sei
+   92  ls
+   93  cd deliverables
+   94  git clone https://github.com/ShadowTorn33/Star_Wars
+   95  ls
+   96  cd dad-website
+   97  ls
+   98  code .
+   99  ls
+  100  cd ..
+  101  ls
+  102  git clone https://github.com/ShadowTorn33/Star_Wars
+  103  ls
+  104  cd Star_Wars
+  105  ls -a
+  106  code .
+  107  ls
+  108  mkdir star_wars
+  109  ls
+  110  cd star_wars
+  111  mkdir empire rebellion
+  112  ls
+  113  cd empire
+  114  ls
+  115  touch darth_vader.txt
+  116  echo ". . .heavy breathing. . ." >> darth_vader.txt
+  117  cd empire
+  118  cd star_wars
+  119  cd ..
+  120  cd empire
+  121  touch emperor_palpatine.txt
+  122  ls
+  123  mkdir death_star
+  124  ls
+  125  mv empire/darth_vader.txt empire/death_star
+  126  mv darth_vader.txt death_star
+  127  cd rebellion
+  128  ls
+  129  cd rebellion
+  130  cd ..
+  131  cd rebellion
+  132  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  133  ls
+  134  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  135  ls
+  136  touch obi_wan.txt
+  137  ls
+  138  pwd
+  139  touch luke_skywalker.txt
+  140  ls
+  141  mkdir millenium_falcon
+  142  ls
+  143  cd millenium_falcon
+  144  touch han_solo.txt chewbacca.txt
+  145  ls
+  146  mv *.txt millenium_falcon
+  147  cd ..
+  148  mv *.txt millenium_falcon
+  149  ls
+  150  mv rebellion/millenium_falcon rebellion
+  151  ls
+  152  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  153  touch obi_wan.txt luke_skywalker.txt 
+  154  mkdir millenium_falcon
+  155  cd millenium_falcon
+  156  touch han_solo.txt chewbacca.txt
+  157  ls
+  158  mv rebellion/*.txt millenium_falcon
+  159  mv *.txt millenium_falcon
+  160  ls
+  161  cd ..
+  162  cd millenium_falcon
+  163  cd ..
+  164  mv *.txt millenium_falcon
+  165  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  166  touch obi_wan.txt luke_skywalker.txt
+  167  mkdir millenium_falcon
+  168  touch han_solo.txt chewbacca.txt
+  169  cd millenium_falcon
+  170  mv luke_skywalker.txt millenium_falcon
+  171  cd ..
+  172  mv luke_skywalker.txt millenium_falcon
+  173  cd millenium_falcon
+  174  touch han_solo.txt chewbacca.txt
+  175  mv luke_skywalker.txt millenium_falcon
+  176  cd ..
+  177  touch luke_skywalker.txt
+  178  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  179  mv millenium_falcon death_star
+  180  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  181  touch obi_wan.txt
+  182  touch luke_skywalker.txt
+  183  mkdir millenium_falcon
+  184  cd mkdir millenium_falcon
+  185  cd  millenium_falcon
+  186  touch han_solo.txt chewbacca.txt
+  187  mv luke_skywalker.txt millenium_falcon
+  188  cd ..
+  189  mv *.txt millenium_falcon
+  190  cd ..
+  191  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  192  cd ..
+  193  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  194  cd empire
+  195  cd star_wars
+  196  cd empire
+  197  mv millenium_falcon/* death_star
+  198  cd death_star
+  199  mv millenium_falcon/* death_star
+  200  cd millenium_falcon
+  201  mv millenium_falcon/* death_star
+  202  cd Star_Wars
+  203  cd ~
+  204  cd Star_Wars
+  205  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  206  cd death_star
+  207  ls
+  208  cd star_wars
+  209  ls
+  210  cd empire
+  211  ls
+  212  cd death_star
+  213  ls
+  214  rm obi_wan.txt
+  215  ls
+  216  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  217  cd ./
+  218  cd /.
+  219  cd ~
+  220  cd Star_Wars
+  221  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  222  ls
+  223  cd star_wars
+  224  ls
+  225  mv empire/death_star/* empire
+  226  rm death_star
+  227  cd empire
+  228  rm death_star
+  229  cd ..
+  230  rm death_star/
+  231  rmdir death_star
+  232  cd empire
+  233  rmdir death_star
+  234  git add .
+  235  git commit -m "First time for everything\n\ngit push origin (master)\n"
