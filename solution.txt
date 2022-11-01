@@ -1,0 +1,253 @@
+
+ - Koren Rolle
+$ history | tail -n 250
+ 5354  echo ...heavy breathing... darth_vader.txt
+ 5355  touch emperor_palpatine.txt && mkdir death_star
+ 5356  ls
+ 5357  rm breathing...
+ 5358  LS
+ 5359  rm echo
+ 5360  ls
+ 5361  ~
+ 5362  ls
+ 5363  cd star_wars
+ 5364  ls
+ 5365  code .
+ 5366  ls
+ 5367  cd drawers
+ 5368  ls
+ 5369  cd Star_Wars
+ 5370  code .
+ 5371  cd star_wars
+ 5372  cd .
+ 5373  ls
+ 5374  code .
+ 5375  ls
+ 5376  mv ~/drawers/Star_Wars ~ Koren_GA
+ 5377  ls
+ 5378  act1.sh
+ 5379  cd act1.sh
+ 5380  mkdir star_wars
+ 5381  cd star_wars mkdir empire && rebellion
+ 5382  cd star_wars
+ 5383  mkdir empire
+ 5384  mkdir rebellion
+ 5385  cd empire && touch darth_vader.txt
+ 5386  ls
+ 5387  echo "...heavy breathing..." darth_vader.txt
+ 5388  ls
+ 5389  cd empire && touch emperor_palpatine.txt
+ 5390  touch emperor_palpatime.txt && mkdir death_star
+ 5391  ls
+ 5392  darth_vader.txt echo ...heavy breathing...
+ 5393  pwd
+ 5394  echo "...heave breathing..." > darth_vader.txt
+ 5395  ls
+ 5396  ls -a
+ 5397  mv darth_vader.txt ~ death_star
+ 5398  mv ~/drawers/Star_Wars/star_wars/empire/darth_vader.txt ~/drawers/Star_Wars/star_wars/empire/death_star
+ 5399  git add .
+ 5400  git commit -m <"Star Wars Assignment">
+ 5401  cd star_wars/rebellion
+ 5402  cd-
+ 5403  cd -
+ 5404  cd rebellion
+ 5405  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+ 5406  touch obi_wan.txt
+ 5407  touch luke_skywalker.txt
+ 5408  mkdir millenium_falcom && touch han_solo.txt chewbacca.txt
+ 5409  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~ millenium_falcom
+ 5410  mv luke_skywalker.txt obi_wan.txt princess_leia.txt  millenium_falcon/
+ 5411  mv millenium falcon death_star
+ 5412  ls
+ 5413  cd death_star
+ 5414  cd ..
+ 5415  cd death_star
+ 5416  ls
+ 5417  cd rebellion
+ 5418  cd death_star
+ 5419  ls
+ 5420  cd millenuim_falcon
+ 5421  cd millenium_falcom
+ 5422  ls
+ 5423  cd ..
+ 5424  ls
+ 5425  ~
+ 5426  ls
+ 5427  star_wars
+ 5428  cd star_wars
+ 5429  cd death_star
+ 5430  cd empire
+ 5431  ls
+ 5432  mv ~/drawers/Star_Wars/star_wars/rebellion/millemium_falcon ~/star_wars/empire/death_star 
+ 5433  mv /drawers/Star_Wars/star_wars/rebellion/millemium_falcon /star_wars/empire/death_star 
+ 5434  mv /drawers/Star_Wars/star_wars/rebellion/millemium_falcon /drawers/Star_Wars /star_wars/empire/death_star 
+ 5435  ls
+ 5436  cd death_star
+ 5437  ls
+ 5438  cd ..
+ 5439  ls
+ 5440  cd .
+ 5441  cd ..
+ 5442  ls
+ 5443  cd empire
+ 5444  ls
+ 5445  cd death_star
+ 5446  ls
+ 5447  ~
+ 5448  ls
+ 5449  cd drawers
+ 5450  ls
+ 5451  cd Star_wars
+ 5452  ls
+ 5453  cd star_wars
+ 5454  ls
+ 5455  cd rebellion
+ 5456  ls
+ 5457  cd millenium_falcom
+ 5458  ls
+ 5459  cd .
+ 5460  cd ..
+ 5461  ~/drawers/Star_Wars/star_wars/rebellion/millemium_falcon to ~/drawers/Star_Wars/star_wars/empire/death_star
+ 5462  ~/drawers/Star_wars/star_wars/rebellion/millemium_falcon to ~/drawers/Star_wars/star_wars/empire/death_star
+ 5463  mv ~/drawers/Star_wars/star_wars/rebellion/millemium_falcon to ~/drawers/Star_wars/star_wars/empire/death_star
+ 5464  cd .
+ 5465  cd ..
+ 5466  mv millenium_falcon death_star
+ 5467  mv millenium_falcon/ death_star/
+ 5468  pwd
+ 5469  cd Star_Wars
+ 5470  ~
+ 5471  cd Star_Wars
+ 5472  ls
+ 5473  cd empire
+ 5474  cd ..
+ 5475  cd rebellion
+ 5476  ls
+ 5477  cd ..
+ 5478  cd empire/
+ 5479  ls
+ 5480  ~
+ 5481  cd Star_wars
+ 5482  ls
+ 5483  cd empire
+ 5484  ls
+ 5485  cd ..
+ 5486  cd re
+ 5487  cd rebellion
+ 5488  ls
+ 5489  cd ..
+ 5490  cd star_wars
+ 5491  cd ..
+ 5492  cd star_wars
+ 5493  ls
+ 5494  cd rebellion
+ 5495  ls
+ 5496  cd ..
+ 5497  ~
+ 5498  cd Star_Wars
+ 5499  ls
+ 5500  cd re
+ 5501  cd rebellion
+ 5502  LS
+ 5503  ls
+ 5504  cd ..
+ 5505  cd empire
+ 5506  LS
+ 5507  CD death_star
+ 5508  LS
+ 5509  cd death_star
+ 5510  ls
+ 5511  ~
+ 5512  ls
+ 5513  cd star_wars
+ 5514  ls
+ 5515  cd re
+ 5516  cd rebellion
+ 5517  ls
+ 5518  cd ..
+ 5519  cd empire
+ 5520  ls
+ 5521  cd death_star
+ 5522  ls
+ 5523  ~
+ 5524  ls
+ 5525  cd dr
+ 5526  cd drawers
+ 5527  ls
+ 5528  cd Star_Wars
+ 5529  ls
+ 5530  cd star_wars
+ 5531  ls
+ 5532  cd rebellion
+ 5533  ls
+ 5534  mv millenium_falcom/ ~/Star_Wars/empire/death_star 
+ 5535  ls
+ 5536  ~
+ 5537  cd dr
+ 5538  cd drawers
+ 5539  cd Star_Wars
+ 5540  cd s
+ 5541  cd star_wars
+ 5542  ls
+ 5543  cd rebellion
+ 5544  ls
+ 5545  ~
+ 5546  cd star_wars
+ 5547  cd ..
+ 5548  ~
+ 5549  ls
+ 5550  cd drawers
+ 5551  ls
+ 5552  cd Star_Wars
+ 5553  ls
+ 5554  cd star_wars
+ 5555  ls
+ 5556  cd rebellion
+ 5557  ls
+ 5558  cd ..
+ 5559  cd empire
+ 5560  ls
+ 5561  cd death_star
+ 5562  ls
+ 5563  ~
+ 5564  $ mv millenium_falcom/ ~/Star_Wars/empire/death_sta~/Star_Wars/empire/death_star
+ 5565  ~/Star_Wars/empire/death_star
+ 5566  la
+ 5567  ls
+ 5568  cd millenium_falcom
+ 5569  ls
+ 5570  cd ..
+ 5571  mv millenium_falcom/* death_star
+ 5572  unload
+ 5573  ls
+ 5574  cd millenium_falcom
+ 5575  ls
+ 5576  cds ..
+ 5577  cd ..
+ 5578  mv millenium_falcom/* ~/star_wars/empire/death_star
+ 5579  ls
+ 5580  rm obi_wan.txt
+ 5581  mv luke_skywalker.txt princess_leia.txt ~/Star_Wars/empire/death_star/millenium_falcon/
+ 5582  ls
+ 5583  mv luke_skywalker.txt princess_leia.txt millenium_falcom
+ 5584  ls
+ 5585  cd millenium_falcom
+ 5586  ls
+ 5587  cd ..
+ 5588  ls
+ 5589  mv millenium_falcom/ ~/star_wars/rebellion
+ 5590  ls
+ 5591  ~
+ 5592  mv ls
+ 5593  cd ..
+ 5594  ~
+ 5595  la
+ 5596  ls
+ 5597  cd star_wars
+ 5598  ls
+ 5599  cd e
+ 5600  cd empire
+ 5601  ls
+ 5602  rm -rf death_star
+ 5603  ls
