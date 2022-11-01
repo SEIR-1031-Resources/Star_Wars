@@ -1,0 +1,251 @@
+➜  star_wars git:(master) ✗ history | tail -n 250
+  335  tree .
+  336  cd ..
+  337  ls
+  338  mv ~/drawers/pjs/favorite.socks ~/drawers/socks
+  339  ls
+  340  cd drawers
+  341  tree .
+  342  ks
+  343  cd ~
+  344  ls
+  345  cd repos/odin-recipes
+  346  ls
+  347  cd ..
+  348  cd odin-recipes
+  349  cd ...
+  350  ls
+  351  cd drawers
+  352  touch test_del.txt
+  353  ls
+  354  rm test_del.txt
+  355  ls
+  356  rm -rf socks
+  357  ls
+  358  brew install trash
+  359  tree .
+  360  cd -R ./more-socks ./copy_socks
+  361  cd pjs
+  362  ls
+  363  cp *.socks ~/drawers/more-socks
+  364  cd ~
+  365  ls
+  366  cd desktop
+  367  cd ..
+  368  ls
+  369  cd repos
+  370  mkdir seir1031
+  371  ls
+  372  cd seir1031
+  373  ls
+  374  git clone git@github.com:Calathea-Z/daily-js-code-challenges.git
+  375  ls
+  376  cd daily-js-code-challenges
+  377  ls
+  378  remote -v
+  379  git remote -v
+  380  code .
+  381  node challenges.js
+  382  git add.
+  383  git add ,
+  384  git add .
+  385  git status
+  386  git commit -m "Completeed the addOne function"
+  387  git remote -v
+  388  git push origin master
+  389  git status
+  390  git remote -v
+  391* ls
+  392* node challenges.js
+  393  ls
+  394  cd ..
+  395  ls
+  396  cd ..
+  397  ls
+  398  cd seir1031
+  399  ls
+  400  git clone https://github.com/Calathea-Z/github_101.git
+  401  ls
+  402  git clone https://github.com/Calathea-Z/Star_Wars.git
+  403  ls
+  404  git remote -v
+  405  ls
+  406  cd Star_Wars
+  407  git remote =v
+  408  git remote -v
+  409  ls
+  410  cd ..
+  411  ls
+  412  ls github_101
+  413  code .
+  414  git status
+  415  ls
+  416  cd Star_Wars
+  417  git status
+  418  cd ..
+  419  cd github_101
+  420  ls
+  421  git status
+  422  git add .
+  423  git status
+  424  git commit -m "Complete the github_101 lab. Answer answers.txt"
+  425  git status
+  426  git push
+  427  git status
+  428  ls
+  429  cd ~
+  430  ls
+  431  cd repos/seir1031/Star_Wars
+  432  git status
+  433  ls
+  434  mkdir star_wars
+  435  ls
+  436  rm -rf star_wars
+  437  ls
+  438  cd act1.sh
+  439  mkdir star_wars
+  440  cd star_wars
+  441  ls
+  442  mkdir empire rebellion
+  443  ls
+  444  cd empire
+  445  ls
+  446  touch darth_vader.txt
+  447  ls
+  448  echo "...heavy breathing..." darth_vader.txt
+  449  ls
+  450  cat darth_vader.txt
+  451  echo '...heavy breathing...' > darth_vader.txt
+  452  cat darth_vader.txt
+  453  cd .
+  454  ls
+  455  cd ..
+  456  ls
+  457  cd empire
+  458  touch emperor_palpatine.txt
+  459  ls
+  460  mkdir death_star
+  461  tree .
+  462  cd ,,
+  463  cd ..
+  464  tree .
+  465  mv ~/empire/darth_vader.txt ~/empire/death_star
+  466  ls
+  467  cd death_star
+  468  rm -rf death_star
+  469  ls
+  470  tree .
+  471  cd ~
+  472  ls
+  473  cd repos
+  474  ls
+  475  cd seir1031
+  476  ls
+  477  cd Star_Wars
+  478  ls
+  479  cd star_wars
+  480  ;s
+  481  ls
+  482  cd empire
+  483  ls
+  484  cd death_star
+  485  ls
+  486  tree .
+  487  cd ..
+  488  ls
+  489  tree .
+  490  mv ~/empire/darth_vader.txt ~/empire/death_star/
+  491  mv empire/death_star/darth_vader/txt /empire/death_star
+  492  cd death_star
+  493  ls
+  494  cd empire
+  495  ls
+  496  mv empire/death_star/darth_vader/txt /empire/death_star
+  497  mv empire/darth_vader.txt /empire/death_star
+  498  mv ~/star_wars/empire/darth_vader.txt ~/star_wars/death_star/
+  499  cd ..
+  500  ls
+  501  cd star_wars
+  502  ls
+  503  tree .
+  504  ls
+  505  cd empire
+  506  ls
+  507  mv ~/empire/darth_vader.txt ~/empire/death_star/
+  508  rm -rf death_star
+  509  ls
+  510  tree .
+  511  mkdir death_star
+  512  ls
+  513  tree .
+  514  mv /darth_vader.txt death_star
+  515  mv ls
+  516  ls
+  517  mv darth_vader.txt death_star/
+  518  ls
+  519  cd ..
+  520  tree .
+  521  git add .
+  522  ls
+  523  git status
+  524  git commit -m "Complete steps for Act1.sh"
+  525  ls
+  526  cd star_wars
+  527  ls
+  528  cd rebellion
+  529  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt 
+  530  ls
+  531  cat princess_leia.txt
+  532  ls
+  533  touch obi_wan.txt luke_skywalker.txt
+  534  ls
+  535  mkdir millenium_falcon
+  536  cd millenium_falcon
+  537  touch han_solo.txt chewbacca.txt
+  538  ls
+  539  cd ..
+  540  ls
+  541  mv luke_skywalker.txt millenium_falcon/
+  542  mv obi_wan.txt millenium_falcon
+  543  mv princess_leia.txt millenium_falcon
+  544  ls
+  545  tree .
+  546  cd ~
+  547  ls
+  548  tree .
+  549  ls
+  550  cd repos
+  551  tree .
+  552  cd seir1031
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd ..
+  557  mv ~/repos/seir1031/Star_Wars/star_wars/rebellion/millenium_falcon ~/repos/seir1031/Star_Wars/star_wars/empire/death_star
+  558  ls
+  559  cd repos
+  560  cd seir1031
+  561  cd Star_Wars/star_wars
+  562  tree .
+  563  git add .
+  564  git commit -m "Complete Act 2"
+  565  git status
+  566  mv ~/repos/seir1031/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~/repos/seir1031/Star_Wars/star_wars/empire/death_star
+  567  tree .
+  568  ls
+  569  rm ~/repos/seir1031/Star_Wars/star_wars/empire/death_star/obi_wan.txt
+  570  ls
+  571  tree .
+  572  mv ~/repos/seir1031/Star_Wars/star_wars/empire/death_star/millenium_falcon ~/repos/seir1031/Star_Wars/star_wars/rebellion
+  573  tree .
+  574  mv ~/repos/seir1031/Star_Wars/star_wars/empire/death_star/* ~/repos/seir1031/Star_Wars/star_wars/rebellion/millenium_falcon
+  575  tree .
+  576  mv ~/repos/seir1031/Star_Wars/star_wars/rebellion/millenium_falcon/darth_vader.txt ~/repos/seir1031/Star_Wars/star_wars/empire/death_star
+  577  tree .
+  578  mv ~/repos/seir1031/Star_Wars/star_wars/empire/death_star/darth_vader.txt ~/repos/seir1031/Star_Wars/star_wars/empire
+  579  rm -rf ~/repos/seir1031/Star_Wars/star_wars/empire/death_star
+  580  tree .
+  581  git add .
+  582  git commit -m "Complete act 3."
+  583  git status
+  584  history
