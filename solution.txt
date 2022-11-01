@@ -1,0 +1,259 @@
+   1  sudo apt-get update
+    2  sudo apt install inotify-tools
+    3  sudo nan0 /usr/local/bin/redirect.brightness.sh
+    4  sudo apt-get update
+    5  sudo apt install inotify-tools
+    6  sudo nano /usr/local/redirect-brightness.sh
+    7  git bash
+    8  hello
+    9  where am i
+   10  pwd
+   11  ls
+   12  cd documents
+   13  ls -a
+   14  cwd
+   15  cd -a
+   16  pwd
+   17  ls
+   18  cd Downloads
+   19  ls
+   20  sudo apt install zoom_amd64.deb
+   21  ls
+   22  sudo apt install zoom_amd64
+   23  sudo apt install ./zoom_amd64.deb
+   24  cd Downloads
+   25  ls
+   26  sudo apt update
+   27  sudo apt install git
+   28  git --version
+   29  git llocation
+   30  git location
+   31  git --help
+   32  /home/alex
+   33  hello
+   34  /home/alex
+   35  pwd
+   36  ls
+   37  ls -a
+   38  cd..
+   39  cd ..
+   40  cd ~
+   41  mkdir thefolder
+   42  ls
+   43  rm thefolder
+   44  touch style.css
+   45  ls
+   46  rm style.css
+   47  ls
+   48  cd thefolder
+   49  cd ..
+   50  rm -r thefolder
+   51  ls
+   52  sudo apt install zsh
+   53  echo $SHELL
+   54  chsh -s $(which zsh)
+   55  echo $SHELL
+   56  chsh -s $(which zsh)
+   57  grep zsh /etc/passwd
+   58  zsh --version
+   59  echo $SHELL
+   60  chsh -s $(which zsh)
+   61  grep zsh /etc/passwd
+   62  sudo apt-get install curl
+   63  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - & &sudo apt-get install nodejs
+   64  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - &&sudo apt-get install nodejs
+   65  node -v
+   66  apt install zsh
+   67  $ sudo adduser <username>
+   68  sudo adduser <username>
+   69  sudo adduser <nonroot>
+   70  sudo adduser nonroot
+   71  sudo usermod -aG sudo nonroot
+   72  su - nonroot
+   73  sudo -s
+   74  echo $SHELL
+   75  nodejs --version
+   76  node --version
+   77  zhs --version
+   78  zsh --version
+   79  git --version
+   80  apt install zsh
+   81  sudo -s
+   82  echo $SHELL
+   83  zsh --version
+   84  chsh -s $(which zsh)
+   85  echo $SHELL
+   86  apt install zsh
+   87  echo $SHELL
+   88  pwd
+   89  ,kdir ~ doors
+   90  mkdir ~ doors
+   91  ~
+   92  zsh --version
+   93  $SHELL
+   94  mkdir dirt
+   95  ls
+   96  dirt mud
+   97  rm -r dirt
+   98  ls
+   99  ~
+  100  mkdir warm.pjs
+  101  ls
+  102  mkdir socks
+  103  rm -r warm.pjs
+  104  rm -r socks
+  105  mkdir drawers
+  106  ls
+  107  cd drawers
+  108  pwd
+  109  mkdir pjs
+  110  mkdir more.socks
+  111  ls
+  112  cd pjs
+  113  pwd
+  114  touch warm.pjs
+  115  ls
+  116  cd more.socks
+  117  pwd
+  118  cd..
+  119  cd ..
+  120  lsls
+  121  ls
+  122  cd more.socks
+  123  touch favorite.socks
+  124  ls
+  125  cd ..
+  126  pwd
+  127  ls
+  128  mv ~/drawers/more.socks/
+  129  mv ~/drawers/more.socks/favorite.socks ~/drawers/pjs/
+  130  cd pjs
+  131  mkdir shorts
+  132  mv ~/drawers/pjs/shorts/ ~/drawers/
+  133  ls
+  134  cd drawers
+  135  ls
+  136  cd ..
+  137  ls
+  138  cd shorts
+  139  touch plaid.pjs
+  140  ls
+  141  cd drawers
+  142  cd ..
+  143  touch test.txt
+  144  ls
+  145  rm test.txt
+  146  ls
+  147  rm -rf more.socks
+  148  ls
+  149  cd shorts
+  150  ls
+  151  cd desktop
+  152  ls
+  153  cd Desktop
+  154  mkdir seir
+  155  cd seir
+  156  code.
+  157  ~
+  158  cd ~
+  159  code .
+  160  git add.
+  161  https://github.com/SEIR-1031-Resources/github_101.git~
+  162  git clone https://github.com/alex-willi/github_101.git~
+  163  git clone https://github.com/alex-willi/github_101.git
+  164  cd github_101
+  165  cd seir
+  166  cd
+  167  ls
+  168  cd github_101
+  169  code .
+  170  git commit -m"this is a test"
+  171  git status
+  172  git add .
+  173  git commit -m"this is a test"
+  174  git push origin master
+  175  git clone https://github.com/alex-willi/github_101.gihttps://github.com/alex-willi/github_101.git
+  176  git clone https://github.com/alex-willi/github_101.git
+  177  cd github_101
+  178  code .
+  179  git status
+  180  git add .
+  181  git status
+  182  git commit -m "test"
+  183  git config --global user.email "alex.lawson.williams@gmail.com"
+  184  git config --global user.name "alex-willi"
+  185  git commit -m "test"
+  186  git push origin main
+  187  cd git PAT
+  188  cd gitpat
+  189  cd gitPAT
+  190  touch text.txt
+  191  git clone https://github.com/alex-willi/github_101.git
+  192  cd github_101
+  193  code .
+  194  git status
+  195  git add .
+  196  git commit -m "test"
+  197  git push origin main
+  198  git push origin master
+  199  git push origin main
+  200  git push origin master
+  201  git clone https://github.com/alex-willi/Star_Wars.git
+  202  cd git_starwars
+  203  git clone https://github.com/alex-willi/Star_Wars.git
+  204  cd star_wars
+  205  pwd
+  206  cd Star_Wars
+  207  code .
+  208  mkdir star_wars
+  209  ls
+  210  cd star_wars
+  211  mkdir empire rebellion
+  212  ls
+  213  touch empire/ darth_vader.txt
+  214  ls
+  215  echo "...heavy breathing...">> darth_vader.txt 
+  216  ls
+  217  mv darth_vader.txt  empire/
+  218  touch emperor_palpatine.txt
+  219  mv emperor_palpatine.txt empire/
+  220  mkdir ~/Star_Wars/star_wars/empire/death_star
+  221  mv darth_vader.text emperor_palpatine.txt ~/Star_Wars/star_wars/empire/death_star/
+  222  mv ./empire/darth_vader.txt ./empire/emperor_palpatine.txt ./empire/death_star/
+  223  touch ./empire/darth
+  224  git add .
+  225  git commit -m "first act"
+  226  touch ~/Star_Wars/star_wars/rebellion/ echo "Help me, Obi-Wan…You’re my only hope.">>princess_leia.txt
+  227  touch ~/Star_Wars/star_wars/rebellion/princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope."
+  228  echo "Help me, Obi-Wan…You’re my only hope.">> ~/Star_Wars/star_wars/rebellion/princess_leia.txt
+  229  touch ./rebellion/obi_wan.txt
+  230  touch ./rebellion/luke_skywalker.txt
+  231  mkdir ./rebellion/millenium_falcon
+  232  touch ./rebellion/millenium_falcon/ han_solo.txt chewbacca.txt
+  233  touch ./rebellion/millenium_falcon/han_solo.txt && chewbacca.txt
+  234  touch ./rebellion/millenium_falcon/han_solo.txt chewbacca.txt
+  235  touch ./rebellion/millenium_falcon/han_solo.txt /chewbacca.txt
+  236  touch ./rebellion/millenium_falcon/han_solo.txt & chewbacca.txt
+  237  cd ./rebellion/millenium_falcon/
+  238  touch han_solo.txt chewbacca.txt
+  239  mv cd ..
+  240  cd ..
+  241  touch luke_skywalker.txt
+  242  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ./millenium_falcon/
+  243  mv millenium_falcon/ ~/Star_Wars/star_wars/empire/death_star/
+  244  git add .
+  245  git commit -m "second act"
+  246  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/ ~/Star_Wars/star_wars/empire/death_star/
+  247  mv *.txt* ~/Star_Wars/star_wars/empire/death_star/
+  248  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt ~/Star_Wars/star_wars/empire/death_star/
+  249  rm ~/Star_Wars/star_wars/empire/death_star/obi_wan.txt 
+  250  cd ~/Star_Wars/star_wars/empire/death_star/
+  251  mv han_solo.txt chewbacca.txt princess_leia.txt luke_skywalker.txt ./millenium_falcon/
+  252  mv millenium_falcon/ ~/Star_Wars/star_wars/rebellion/
+  253  mv darth_vader.txt ./emperor_palpatine.txt 
+  254  mv emperor_palpatine.txt ./emperor_palpatine.txt 
+  255  touch darth_vader.text
+  256  mv darth_vader.text ..
+  257  mv emperor_palpatine.txt ..
+  258  rm -r ~/Star_Wars/star_wars/empire/death_star/
+  259  history | tail -n 500
