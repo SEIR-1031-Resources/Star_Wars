@@ -1,0 +1,224 @@
+1  hello
+    2  pwd
+    3  1s
+    4  1
+    5  1s
+    6  list
+    7  ls
+    8  cd documents
+    9  ls
+   10  ls - a
+   11  ls -a
+   12  cd ..
+   13  pwd
+   14  mkdir myfolder
+   15  pwd
+   16  ls
+   17  cd myfolder
+   18  touch index.html style.css
+   19  rm style.css
+   20  ls
+   21  rm -r myfolder
+   22  rm -r myfolder
+   23  rm -r ~/myfolder
+   24  pcd
+   25  pwd
+   26  cd
+   27  pwd
+   28  compaudit | xargs chmod g-w,o-w
+   29  echo $SHELL
+   30  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   31  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   32  code .
+   33  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   34  brew doctor
+   35  brew update
+   36  export PATH=$PATH:/opt/homebrew/bin
+   37  xcode-select --install
+   38  brew install git
+   39  git config --global user.name "easybarezi20"
+   40  git config --global user.email "easybarezi20@gmail.com"
+   41  git config --global init.defaultBranch main
+   42  git config --global core.editor "code --wait"
+   43  git config --global pull.rebase false
+   44  touch ~/.gitignore_global
+   45  git config --global core.excludesfile ~/.gitignore_global
+   46  code ~/.gitignore_global
+   47  brew install gh
+   48  gh auth login
+   49  brew install node
+   50  node -v
+   51  npm -v
+   52  npm i -g nodemon
+   53  sudo npm i -g nodemon
+   54  npm fund
+   55  npm i -g nodemon
+   56  sudo npm i -g nodemon
+   57  pwd
+   58  mkdir codingbootcamp
+   59  cd codingbootcamp
+   60  mkdir photos
+   61  touch photos/barezi.png photos/troy.png photos/wc-cohort.png
+   62  touch photos/cohort.jpg
+   63  ls
+   64  mkdir photos/png
+   65  mkdir photos/jpg
+   66  mv *.png png
+   67  mv barezi.png png
+   68  mv *.png/png
+   69  mv *.png ~/png
+   70  mv photos/*.png photos/png/
+   71  mv photos/*.jpg photos/jpg/
+   72  mv photos pictures
+   73  mkdir frontend
+   74  open frontend/index.html
+   75  pwd
+   76  ls
+   77  mkdir ~/sei
+   78  ls
+   79  cd ~/sei
+   80  mkdir labs fundementals projects repos code-alongs deiverables sandbox
+   81  ls
+   82  ~
+   83  pwd
+   84  cd sei
+   85  cd deliverables
+   86  git clone https://github.com/easybarezi20/Star_Wars
+   87  git clone(https://github.com/easybarezi20/Star_Wars)
+   88  ls
+   89  git clone SEIR-1031-Resources/Star_Wars
+   90  git clone https://github.com/SEIR-1031-Resources/Star_Wars
+   91  git clone (https://github.com/SEIR-1031-Resources/Star_Wars)
+   92  git clone https://github.com/easybarezi20/Star_Wars
+   93  xcode-select --install
+   94  git clone https://github.com/easybarezi20/Star_Wars
+   95  ls
+   96  cd Star_Wars
+   97  code .
+   98  code.
+   99  code
+  100  .code
+  101  code
+  102  code.
+  103  code .
+  104  pwd
+  105  code .
+  106  cd ..
+  107  code .
+  108  code.
+  109  code .
+  110  cd Star_Wars
+  111  code .
+  112  code
+  113  code .
+  114  pwd
+  115  ls
+  116  cd sei
+  117  ls
+  118  cd deliverables
+  119  code .
+  120  code
+  121  .code
+  122  . code
+  123  code ,
+  124  pwd
+  125  code .
+  126  pwd
+  127  ls
+  128  cd sei
+  129  cd deliverables
+  130  ls
+  131  cd Star_Wars
+  132  git branch
+  133  pwd
+  134  cd sei
+  135  cd deliverables
+  136  cd Star_Wars
+  137  code 
+  138  code .
+  139  nano ~/.zshrc
+  140  pwd
+  141  ls
+  142  cd sei
+  143  cd deliverables
+  144  cd Star_Wars
+  145  code .
+  146  mkdir star_wars
+  147  mkdir star_wars empire
+  148  mv empire/ star_wars
+  149  mkdir star_wars/ rebellion/
+  150  mv rebellion/ star_wars
+  151  code .
+  152  ~
+  153  code .
+  154  pwd
+  155  ls
+  156  cd sei
+  157  cd deliverables
+  158  cd Star_Wars
+  159  code .
+  160  ls
+  161  cd star_wars
+  162  ls
+  163  cd empire
+  164  touch darth_vader.txt
+  165  echo "...heavy breathing..." >> darth_vader.txt
+  166  touch emperor_palpatine.txt
+  167  mkdir death_star
+  168  mv darth_vader.txt death_star
+  169  ls
+  170  cd ..
+  171  cd rebellion
+  172  touch princess_leia.txt
+  173  echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  174  touch obi_wan.txt
+  175  touch luke_skywalker.txt
+  176  mkdir millenium_falcon
+  177  touch millenium_falcon/ hansolo.txt chewbacca.txt
+  178  mv hansolo.txt chewbacca.txt millenium_falcon
+  179  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  180  pwd
+  181  cd ..
+  182  pwd
+  183  cd ..
+  184  pwd
+  185  mv millenium_falcon/ death_star/
+  186  cd star_wars
+  187  cd rebellion
+  188  cd ..
+  189  mv ~/star_wars/rebellion/millenium_falcon ~/star_wars/empire/death_star
+  190  cd star_wars
+  191  cd rebellion
+  192  ls
+  193  mv millenium_falcon death_star
+  194  mv death_star millenium_falcon
+  195  cd ..
+  196  mv millenium_falcon
+  197  cd star_wars
+  198  cd rebellion
+  199  mv millenium_falcon 
+  200  mv millenium_falcon/ empire
+  201  mv empire millenium_falcon
+  202  mv millenium_falcon empire
+  203  mv empire millenium_falcon
+  204  mv millenium_falcon/ ~/star_wars/death_star
+  205  git add
+  206  git add .
+  207  git commit -m "act1 done"
+  208  cd ..
+  209  mv rebellion/millenium_falcon empire/death_star
+  210  git add .
+  211  git commit -m  "its out of order but second act done"
+  212  mv empire/death_star/millenium_falcon/*.txt empire/death_star
+  213  rm empire/death_star/obi_wan.txt
+  214  mv empire/death_star/chewbacca.txt empire/death_star/millenium_falcon
+  215  mv empire/death_star/hansolo.txt empire/death_star/millenium_falcon
+  216  mv empire/death_star/luke_skywalker.txt empire/death_star/millenium_falcon
+  217  mv empire/death_star/princess_leia.txt empire/death_star/millenium_falcon
+  218  mv empire/death_star/millenium_falcon rebellion
+  219  mv empire/death_star/darth_vader.txt empire
+  220  rm empire/death_star
+  221  rmdir empire/death_star
+  222  rm -r empire/death_star
+  223  git add .
+  224  git commit -m "third act is done"
