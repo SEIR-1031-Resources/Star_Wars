@@ -1,0 +1,466 @@
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 /
+$ history | tail -n 250
+    1  ls
+    2  man
+    3  mkdir test
+    4  cd test
+    5  touch new_file.txt
+    6  code .
+    7  node --version
+    8  history | tail -n 250
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 /
+$ cd ~/seir1031/star_wars/rebellion
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ touch obi_wan.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ touch luke_skywalker.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ ^C
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ mkdir millenium_falcon.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ cd millenium_falcon.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon.txt (master)
+$ cd millenium_falcon.txt
+bash: cd: millenium_falcon.txt: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon.txt (master)
+$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon.txt
+$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon.txt
+$ mkdir millenium_falcon
+mkdir: cannot create directory ‘millenium_falcon’: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon.txt
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ mkdir millenium falcon
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ mkdir millenium_falcon
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ cd millenium_falcon
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon (master)
+$ touch han_solo.txt chewbacca.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion/millenium_falcon (master)
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/star_wars/rebellion (master)
+$ cd ~/seir1031
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031
+$ mkdir html
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031
+$ cd html
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ touch index.html
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ cod .
+bash: cod: command not found
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ code .
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ cd star_wars/rebellion
+bash: cd: star_wars/rebellion: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ cd star_wars
+bash: cd: star_wars: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ cd Star_Wars
+bash: cd: Star_Wars: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/html
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031
+$ cd Star_Wars
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act1.sh
+        modified:   act2.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        empire/
+        rebellion/luke_skywalker.txt
+        rebellion/millenium_falcon/
+        rebellion/obi_wan.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git add .
+warning: in the working copy of 'empire/death_star/darth_vader.txt', LF will be replaced by CRLF the next time Git touches it
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git commit -m "working on act 2"
+[master 0f4533e] working on act 2
+ 8 files changed, 12 insertions(+), 10 deletions(-)
+ create mode 100644 empire/death_star/darth_vader.txt
+ create mode 100644 empire/emperor_palpatine.txt
+ create mode 100644 rebellion/luke_skywalker.txt
+ create mode 100644 rebellion/millenium_falcon/chewbacca.txt
+ create mode 100644 rebellion/millenium_falcon/han_solo.txt
+ create mode 100644 rebellion/obi_wan.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git remote -v
+origin  https://github.com/JohnnyGoodrich/Star_Wars.git (fetch)
+origin  https://github.com/JohnnyGoodrich/Star_Wars.git (push)
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git push origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.13 KiB | 89.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/JohnnyGoodrich/Star_Wars.git
+   2701936..0f4533e  master -> master
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ cd rebellion
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/rebellion (master)
+$ mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/rebellion (master)
+$ mv ~/seir1031/Star_Wars/rebellion/millenium_falcon ~/seir1031/Star_Wars/empire/death_star
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/rebellion (master)
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ mv ~/seir1031/Star_Wars/empire/death_star/mellenium_falcon/*.txt ~/seir1031/Star_Wars/empire/death_star
+mv: cannot stat '/c/Users/jbgoo/seir1031/Star_Wars/empire/death_star/mellenium_falcon/*.txt': No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ mv millenium_falcon/*.txt ..
+mv: cannot stat 'millenium_falcon/*.txt': No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ cd millenium_falcon
+bash: cd: millenium_falcon: No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ cd empire
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ cd empire/death_star
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ mv millenium_falcon/*.txt ~/seir1031/Star_Wars/empire/death_star
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ rm obi_wan.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ mv chewbacca.txt han_solo.txt princess_leia.txt luke_skywalker.txt millenium_falcon
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ mv millenium_falcon ~/seir1031/Star_war/rebillion
+mv: cannot move 'millenium_falcon' to '/c/Users/jbgoo/seir1031/Star_war/rebillion': No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ mv millenium_falcon ~/seir1031/Star_Wars/rebellion
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ mv darth_vader ~/seir1031/Star_Wars/empire
+mv: cannot stat 'darth_vader': No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ mv darth_vader.txt ~/seir1031/Star_Wars/empire
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ rm death_star
+rm: cannot remove 'death_star': No such file or directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ cd..
+bash: cd..: command not found
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ rm death_star
+rm: cannot remove 'death_star': Is a directory
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ cd death_star
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ cd ../rm -rf death_star
+bash: cd: too many arguments
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire/death_star (master)
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ rm -rf death_star
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act1.sh
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+        deleted:    death_star/darth_vader.txt
+        deleted:    ../rebellion/luke_skywalker.txt
+        deleted:    ../rebellion/obi_wan.txt
+        deleted:    ../rebellion/princess_leia.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        darth_vader.txt
+        ../rebellion/millenium_falcon/luke_skywalker.txt
+        ../rebellion/millenium_falcon/princess_leia.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git add .
+warning: in the working copy of 'empire/darth_vader.txt', LF will be replaced by CRLF the next time Git touches it
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git commit -m "finished act 3"
+[master adb7ae8] finished act 3
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename empire/{death_star => }/darth_vader.txt (100%)
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git push origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 380 bytes | 190.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/JohnnyGoodrich/Star_Wars.git
+   0f4533e..adb7ae8  master -> master
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act1.sh
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+        deleted:    ../rebellion/luke_skywalker.txt
+        deleted:    ../rebellion/obi_wan.txt
+        deleted:    ../rebellion/princess_leia.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../rebellion/millenium_falcon/luke_skywalker.txt
+        ../rebellion/millenium_falcon/princess_leia.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git add .
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act1.sh
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+        deleted:    ../rebellion/luke_skywalker.txt
+        deleted:    ../rebellion/obi_wan.txt
+        deleted:    ../rebellion/princess_leia.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../rebellion/millenium_falcon/luke_skywalker.txt
+        ../rebellion/millenium_falcon/princess_leia.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ git commit -m "retried act 3"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act1.sh
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+        deleted:    ../rebellion/luke_skywalker.txt
+        deleted:    ../rebellion/obi_wan.txt
+        deleted:    ../rebellion/princess_leia.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../rebellion/millenium_falcon/luke_skywalker.txt
+        ../rebellion/millenium_falcon/princess_leia.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars/empire (master)
+$ cd ..
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git add .
+warning: in the working copy of 'rebellion/millenium_falcon/princess_leia.txt', LF will be replaced by CRLF the next time Git touches it
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git commit -m "Modified act 3"
+[master 9d50c37] Modified act 3
+ 6 files changed, 9 insertions(+), 7 deletions(-)
+ rename rebellion/{ => millenium_falcon}/luke_skywalker.txt (100%)
+ rename rebellion/{ => millenium_falcon}/princess_leia.txt (100%)
+ delete mode 100644 rebellion/obi_wan.txt
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ git push origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 982 bytes | 491.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/JohnnyGoodrich/Star_Wars.git
+   adb7ae8..9d50c37  master -> master
+
+jbgoo@DESKTOP-U2FL8CI MINGW64 ~/seir1031/Star_Wars (master)
+$ history | tail -n 250
+    1  ls
+    2  man
+    3  mkdir test
+    4  cd test
+    5  touch new_file.txt
+    6  code .
+    7  node --version
+    8  history | tail -n 250
+    9  cd ~/seir1031/star_wars/rebellion
+   10  touch obi_wan.txt
+   11  touch luke_skywalker.txt
+   12  mkdir millenium_falcon.txt
+   13  cd millenium_falcon.txt
+   14  cd millenium_falcon.txt
+   15  cd millenium_falcon
+   16  cd millenium_falcon
+   17  mkdir millenium_falcon
+   18  cd ..
+   19  mkdir millenium falcon
+   20  mkdir millenium_falcon
+   21  cd millenium_falcon
+   22  touch han_solo.txt chewbacca.txt
+   23  cd ..
+   24  cd ~/seir1031
+   25  mkdir html
+   26  cd html
+   27  touch index.html
+   28  cod .
+   29  code .
+   30  cd star_wars/rebellion
+   31  cd star_wars
+   32  cd Star_Wars
+   33  cd ..
+   34  cd Star_Wars
+   35  git status
+   36  git add
+   37  git add .
+   38  git commit -m "working on act 2"
+   39  git remote -v
+   40  git push origin master
+   41  cd rebellion
+   42  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+   43  mv ~/seir1031/Star_Wars/rebellion/millenium_falcon ~/seir1031/Star_Wars/empire/death_star
+   44  cd ..
+   45  mv ~/seir1031/Star_Wars/empire/death_star/mellenium_falcon/*.txt ~/seir1031/Star_Wars/empire/death_star
+   46  mv millenium_falcon/*.txt ..
+   47  cd millenium_falcon
+   48  cd empire
+   49  cd ..
+   50  cd empire/death_star
+   51  mv millenium_falcon/*.txt ~/seir1031/Star_Wars/empire/death_star
+   52  rm obi_wan.txt
+   53  mv chewbacca.txt han_solo.txt princess_leia.txt luke_skywalker.txt millenium_falcon
+   54  mv millenium_falcon ~/seir1031/Star_war/rebillion
+   55  mv millenium_falcon ~/seir1031/Star_Wars/rebellion
+   56  mv darth_vader ~/seir1031/Star_Wars/empire
+   57  mv darth_vader.txt ~/seir1031/Star_Wars/empire
+   58  rm death_star
+   59  cd..
+   60  cd ..
+   61  rm death_star
+   62  cd death_star
+   63  cd ../rm -rf death_star
+   64  cd ..
+   65  rm -rf death_star
+   66  git status
+   67  git add .
+   68  git commit -m "finished act 3"
+   69  git push origin master
+   70  git status
+   71  git add .
+   72  git status
+   73  git commit -m "retried act 3"
+   74  cd ..
+   75  git add .
+   76  git commit -m "Modified act 3"
+   77  git push origin master
+   78  history | tail -n 250
