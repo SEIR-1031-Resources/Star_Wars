@@ -1,0 +1,250 @@
+246  mkdir socks
+  247  mkdir drawers
+  248  cd drawers
+  249  pwd
+  250  mkdir ~/drawers/pjs && mkdir ~/drawers/more-socks
+  251  pwd
+  252  mkdir ~/drawers/more-socks
+  253  cd pjs
+  254  pwd
+  255  cd ~/drawers/pjs
+  256  pwd
+  257  touch warm.pjs
+  258  touch favorite.socks
+  259  pwd
+  260  ls
+  261  cd ~
+  262  pwd
+  263  mv ~/drawers/pjs/favorite.socks ~/drawers/socks/
+  264  cd ~/drawers/socks
+  265  cd ~/drawers/more-socks
+  266  pwd
+  267  mv ~/drawers/pjs/favorite.socks ~/drawers/more-socks/
+  268  pwd
+  269  ls
+  270  pwd
+  271  cd ..
+  272  pwd
+  273  cd pjs
+  274  pwd
+  275  mkdir shorts
+  276  ls
+  277  mv ~/drawers/pjs/shorts ~/drawers
+  278  mv ~/drawers/pjs/shorts ~/drawers/
+  279  pwd
+  280  cd pjs
+  281  cd ~/drawers/pjs
+  282  pwd
+  283  ls
+  284  mv ~/drawers/pjs/shorts ~/drawers/
+  285  pwd
+  286  cd shorts
+  287  pwd
+  288  mv ~/drawers/pjs/shorts ~/drawers
+  289  cd drawers
+  290  cd ~/drawers
+  291  pwd
+  292  ls
+  293  cd ~/drawers/shorts
+  294  touch plaid.pjs
+  295  ls
+  296  pwd
+  297  mv ~/drawers/shorts/plaid.pjs ~/drawers/pjs/solid.pjs
+  298  ls
+  299  cd ~/drawers/pjs
+  300  ls
+  301  cd ~/drawers/socks
+  302  cd ~/drawers/more-socks
+  303  touch dress.more-socks
+  304  ls
+  305  mv ~/drawers/more-socks/dress.more-socks ~/drawers/more-socks/dress.socks
+  306  ls
+  307  mv *.socks ~/drawers
+  308  cd ~/drawers
+  309  ls
+  310  mv *.socks ~/drawers/more-socks
+  311  cd more-socks
+  312  ls
+  313  cp *.socks ~/drawers/more-socks
+  314  mkdir ~/drawers/socks
+  315  pwd
+  316  *.socks ~/drawers/socks
+  317  ls
+  318  *.socks ~/drawers/socks
+  319  cd ~/drawers/more-socks
+  320  ls
+  321  cd ~/drawers/socks
+  322  ls
+  323  mv *.socks ~/drawers/socks
+  324  cd ~/drawers/more-socks
+  325  mv *.sock ~/drawers/socks
+  326  mv *.socks ~/drawers/socks
+  327  ls
+  328  cd ~/drawers/socks
+  329  cp *.socks ~/drawers/more-socks
+  330  ls
+  331  cd ~/drawers/more-socks
+  332  ls
+  333  cd ~/drawers/socks
+  334  cp -R ~/drawers/more-socks ~/drawers/even-more-socks
+  335  cd ~/drawers
+  336  ls
+  337  cd even-more-socks
+  338  ls
+  339  cd ~
+  340  pwd
+  341  mkdir ~/sei
+  342  pwd
+  343  cd ~/sei
+  344  ls
+  345  mkdir ~/sei/labs
+  346  mkdir ~/sei/fundamentals
+  347  mkdir projects
+  348  ls
+  349  mkdir repos
+  350  mkdir code-alogs
+  351  mkdir deliverables
+  352  mkdir sandbox
+  353  ls
+  354  cd ~
+  355  pwd
+  356  code.
+  357  code .
+  358  git
+  359  git init
+  360  git status
+  361  pwd
+  362  cd seir
+  363  cd sei
+  364  ls
+  365  cd repos
+  366  git clone git@github.com:Chrisstruong/daily-js-code-challenges.git
+  367  cd ~
+  368  pwd
+  369  ssh - keygen -t rsa
+  370  ssh-keygen -t rsa
+  371  ssh-add
+  372  ssh-copy-id chrisstruong
+  373  ssh-copy-id chrisstruong@gmail.com,
+  374  ssh-copy-id chrisstruong@gmail.com
+  375  f
+  376  sdf
+  377  dsf
+  378  f
+  379  ds
+  380  ls -al ~/.ssh
+  381  ssh-copy-id id_rsa
+  382  ssh-copy-id id_rsa.pub
+  383  ssh-copy-id Minhs-MacBook-Air.local
+  384  ssh-copy-id Minh’s MacBook Air
+  385  cd ~
+  386  pwd
+  387  cd ~/ssh
+  388  cd ~/.ssh
+  389  ls
+  390  cd~
+  391  pbcopy < ~/.ssh/id_rsa.pub
+  392  cd ~
+  393  cd sei
+  394  ls
+  395  cd repos
+  396  git clone git@github.com:Chrisstruong/daily-js-code-challenges.git
+  397  ls
+  398  cd daily-js-code-challenges
+  399  ls
+  400  ls -a
+  401  git remote -v
+  402  ls
+  403  code .
+  404  ls
+  405  node challenge.js
+  406  node challenges.js
+  407  ls
+  408  node challenges.js
+  409  git add.
+  410  git add .
+  411  get status
+  412  git status
+  413  git commit -m "Completed the addOne function"
+  414  git add .
+  415  git status
+  416  git init
+  417  git status
+  418  git push --set upstream origin master
+  419  git config --global push.default current
+  420  git status
+  421  git config --global push.default current\n
+  422  git branch --set-upstream-to origin/master
+  423  git status
+  424  git init
+  425  git remote add https://github.com/username/project.git
+  426  git pull origin master\n
+  427  touch test\n
+  428  git add test\n
+  429  git commit -m "Adding file for test purposes only."\n
+  430  git status
+  431  node challenges.js
+  432  git commit -m "Completed the addOne function"
+  433  git remote -v
+  434  git push origin master
+  435  git status
+  436  ls
+  437  node challenges.js
+  438  git status
+  439  git add .
+  440  git status
+  441  git commit -m "Completed the addOne function"
+  442  git remote -v
+  443  git push origin master
+  444  ls
+  445  cd sei
+  446  ls
+  447  cd deliverables
+  448  git clone git@github.com:Chrisstruong/Star_Wars.git
+  449  ls
+  450  cd Star_Wars
+  451  ls
+  452  ls -a
+  453  git remove -v
+  454  git remote -v
+  455  ls
+  456  code .
+  457  pwd
+  458  mkdir ~/minh ~/triet
+  459  pwd
+  460  ls
+  461  cd ~/triet
+  462  pwd
+  463  touch darth.txt
+  464  ls
+  465  pwd
+  466  touch a.txt b.txt
+  467  ls
+  468  mkdir ~/c
+  469  ls
+  470  pwd
+  471  mkdir
+  472  mkdir c
+  473  ls
+  474  cd ~
+  475  pwd
+  476  mkdir minh
+  477  mkdir ~/minh
+  478  mkdir f
+  479  pwd
+  480  ls
+  481  git add .
+  482  git status
+  483  history | tail -n 250
+  484  git add .
+  485  git status
+  486  git commit -m "YOUR MESSAGE HERE"
+  487  history | tail -n 250
+  488  git add .
+  489  git status
+  490  git add .
+  491  git status
+  492  git add .
+  493  git status
+  494  git add .
+  495  git status
