@@ -1,0 +1,19 @@
+  mkdir star_wars
+   89  ls
+   90  cd star_wars/
+   91  git cloan https://github.com/Feven98/Star_Wars.git
+   92  git clone https://github.com/Feven98/Star_Wars.git
+   93  ls
+   94  cd star_wars/
+   95  ls
+   96  ls -a
+   97  get remote -v
+   98  git remote -v
+   99  ls
+  100  code .
+  101  mkdir ~/star_wars/empire ~/star_wars/rebellion
+  102  cd star_wars && ls
+  103  fevenmenelik@Fevens-MacBook-Pro star_wars % ls\nStar_Wars\nfevenmenelik@Fevens-MacBook-Pro star_wars % cd star_wars/\nfevenmenelik@Fevens-MacBook-Pro star_wars % ls\nREADME.md\tact1.sh\t\tact2.sh\t\tact3.sh\t\tsolution.txt\nfevenmenelik@Fevens-MacBook-Pro star_wars % ls -a\n.\t\t.git\t\tact1.sh\t\tact3.sh\n..\t\tREADME.md\tact2.sh\t\tsolution.txt\nfevenmenelik@Fevens-MacBook-Pro star_wars % get remote
+fevenmenelik@Fevens-MacBook-Pro star_wars % solution.txt
+zsh: command not found: solution.txt
+fevenmenelik@Fevens-MacBook-Pro star_wars % 
