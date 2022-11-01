@@ -1,0 +1,55 @@
+mkdir starwars hw
+  220  cd starwars hw
+  221  pwd
+  222  ls
+  223  cd starwars
+  224  git clone https://github.com/emblaido/Star_Wars.git
+  225  code .
+  226  git clone https://github.com/emblaido/Star_Wars.git
+  227  code .
+  228  git clone https://github.com/emblaido/Star_Wars.git
+  229  code .
+  230  git status
+  231  pwd
+  232  mkdir empire
+  233  mkdir rebellion
+  234  cd emipre
+  235  mkdir empire
+  236  cd empire
+  237  pwd
+  238  touch darth_vader.txt
+  239  cd darth_vader.txt
+  240  echo "...heavy breathing..."
+  241  cd empire
+  242  pwd
+  243  touch emperor_palpatine.txt
+  244  mkdir death_star,txt
+  245  ~/darth_vader/death_star/
+  246  mv ~/darth_vader/death_star/
+  247  cd rebellion
+  248  cd ~
+  249  ls
+  250  cd starwars
+  251  ls
+  252  cd rebellion
+  253  touch princess_leia.txt
+  254  echo "Help me, Obi-Wan…You’re my only hope."
+  255  touch Obi_wan.txt
+  256  touch luke_skywalker.txt
+  257  mkdir millenium_falcon
+  258  cd millenium_falcon
+  259  touch han_solo.txt
+  260  touch chewbacca.txt
+  261  mv ~/luke_skywalker/obi_wan princess_leia/millenium_falcon/
+  262  mv luke_skywalker/millenium_falcon/
+  263  mv obi_wan princess_leia/millenium_falcon/
+  264  mv obi_wan/millenium_falco
+  265  mv princess_leia/millenium_falcon/
+  266  mv millenium_falcon*/death_star/
+  267  cd ..
+  268  mv millenium_falcon*/death_star/
+  269  cd ..
+  270  mv millenium_falcon*/death_star/
+  271  cd empire
+  272  mv millenium_falcon*/death_star/
+➜  empire 

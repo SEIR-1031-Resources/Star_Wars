@@ -8,6 +8,6 @@
 
 # 5. Inside the millenium_falcon, create two files: han_solo.txt and chewbacca.txt
 
-# 6. Move luke_skywalker, obi_wan, and princess_leia into the millenium_falcon, respectively.
+# 6. Move luke_skywalker obi_wan, princess_leia into the millenium_falcon, respectively.
 
 # 7. Move the millenium_falcon into the death_star.
