@@ -8,3 +8,19 @@ mkdir empire/death_star
 mv empire/darth_vader.txt empire/death_star
 
 Act Two
+echo "Help me, Obi-Wan…You’re my only hope.">>rebellion/princess_leia.txt
+touch rebellion/obi_wan.txt
+touch rebellion/luke_skywalker.txt
+mkdir rebellion/millenium_falcon
+touch millenium_falcon/han_solo.txt
+touch millenium_falcon/chewbacca.txt
+mv rebellion/luke_skywalker.txt rebellion/millenium_falcon
+mv millenium_falcon/death_star
+
+Act Three
+mv millenium_falcon*/death_star
+rm obi_wan.txt
+mv millenium_falcon.death_star
+mv_millenium_falcon/rebellion
+mv darth_vader/empire
+rm-death_star
