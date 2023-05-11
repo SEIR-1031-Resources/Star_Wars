@@ -1,0 +1,24 @@
+CREATING YOUR OWN REPO:
+
+1. git init (inside of exactly where you want the git created)
+2. Go into GitHub and create the repo in the browser
+3. git remote add origin (url) ...the URL is what you just created in the browser
+4. git add . for all files or git add (fileName) to add just one file at a time
+5. git commit -m "message" created a message that actually shows up on Github and can be seen by potential employers on the repo
+6. git push origin (nameOfBranch) and for now the name of the branch is almost always main or master
+
+FORKING AND CLONING TO SUBMIT MY HOMEWORK:
+1. Fork the repo over to your own version. This is because you don't have access to push to GA's org but you will be able to push to your own. 
+2. Clone it down FROM YOUR FORKED VERSION. Make sure the URL that you're cloning has your name and not SEI-NYC-1114
+3. Make my changes
+4. git add (file or . for all)
+5. git commit -m "Something not for latenightcommits.com"
+6. git push origin master ...git push should work itself for now
+7. Go into the pull requests tab in the browser. Make sure that you are in your repo and it will make a pull request by default to wherever you forked it from. It should be right next to the code tab on the top. Click new pull request (the green button) and create the pull request. Instead of the default (message you put for what you did) please put your name and the homework you're submitting.
+
+
+OTHER NOTES:
+
+- git status shows you the status of what has changed since your most recent add and commit. 
+- git remote -v shows you the url of the repo
+- 
