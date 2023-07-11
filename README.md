@@ -55,3 +55,5 @@ history | tail -n 250
 
 ## Resources
 * [Terminal Cheatsheet](https://gist.github.com/cferdinandi/ef665330286fd5d7127d)
+
+Here's a new change!
